@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/software/cpachecker/!svn/ver/5639/trunk/src/org/sosy_lab/cpachecker/util/predicates/ldd
+END
+LDDRegion.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/software/cpachecker/!svn/ver/5639/trunk/src/org/sosy_lab/cpachecker/util/predicates/ldd/LDDRegion.java
+END
+LDDFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/software/cpachecker/!svn/ver/5639/trunk/src/org/sosy_lab/cpachecker/util/predicates/ldd/LDDFactory.java
+END
+TheoryType.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/software/cpachecker/!svn/ver/5639/trunk/src/org/sosy_lab/cpachecker/util/predicates/ldd/TheoryType.java
+END
+ExistsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/software/cpachecker/!svn/ver/5639/trunk/src/org/sosy_lab/cpachecker/util/predicates/ldd/ExistsType.java
+END
+LDDRegionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/software/cpachecker/!svn/ver/5639/trunk/src/org/sosy_lab/cpachecker/util/predicates/ldd/LDDRegionManager.java
+END
+LDD.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/software/cpachecker/!svn/ver/5639/trunk/src/org/sosy_lab/cpachecker/util/predicates/ldd/LDD.java
+END

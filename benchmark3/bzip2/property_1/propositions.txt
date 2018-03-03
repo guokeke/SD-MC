@@ -1,0 +1,1 @@
+p1=>Global::level == 7 && p2=>Global::temp_level == 7 && p3=>Global::level == 9 && p4=>Global::temp_level == 9

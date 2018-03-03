@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/software/cpachecker/!svn/ver/6484/trunk/src/org/sosy_lab/cpachecker/exceptions
+END
+RefinementFailedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/software/cpachecker/!svn/ver/6165/trunk/src/org/sosy_lab/cpachecker/exceptions/RefinementFailedException.java
+END
+CPAException.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/exceptions/CPAException.java
+END
+CounterexampleAnalysisFailed.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/software/cpachecker/!svn/ver/5543/trunk/src/org/sosy_lab/cpachecker/exceptions/CounterexampleAnalysisFailed.java
+END
+UnsupportedCCodeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/exceptions/UnsupportedCCodeException.java
+END
+CPATransferException.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/exceptions/CPATransferException.java
+END
+InvalidComponentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/software/cpachecker/!svn/ver/5543/trunk/src/org/sosy_lab/cpachecker/exceptions/InvalidComponentException.java
+END
+SolverException.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/software/cpachecker/!svn/ver/6484/trunk/src/org/sosy_lab/cpachecker/exceptions/SolverException.java
+END
+UnrecognizedCCodeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/software/cpachecker/!svn/ver/6299/trunk/src/org/sosy_lab/cpachecker/exceptions/UnrecognizedCCodeException.java
+END
+UnrecognizedCFAEdgeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/exceptions/UnrecognizedCFAEdgeException.java
+END
+InvalidQueryException.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/software/cpachecker/!svn/ver/6169/trunk/src/org/sosy_lab/cpachecker/exceptions/InvalidQueryException.java
+END
+ParserException.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/exceptions/ParserException.java
+END
+InvalidCFAException.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/exceptions/InvalidCFAException.java
+END

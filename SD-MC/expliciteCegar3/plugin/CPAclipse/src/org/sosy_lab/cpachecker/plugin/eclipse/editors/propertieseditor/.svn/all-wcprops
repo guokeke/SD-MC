@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/software/cpachecker/!svn/ver/3417/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/propertieseditor
+END
+PropertiesTableEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/software/cpachecker/!svn/ver/3417/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/propertieseditor/PropertiesTableEditor.java
+END
+Property.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/software/cpachecker/!svn/ver/1607/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/propertieseditor/Property.java
+END

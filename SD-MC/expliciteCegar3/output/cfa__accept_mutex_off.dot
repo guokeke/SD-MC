@@ -1,0 +1,7 @@
+digraph accept_mutex_off {
+1 [shape="circle"]
+2 [shape="circle"]
+0 [shape="circle"]
+1 -> 2 [label="Function start dummy edge" fontname="Courier New"]
+2 -> 0 [label="return 0;" fontname="Courier New"]
+}

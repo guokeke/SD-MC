@@ -1,0 +1,11 @@
+ARG State (Id: 1, Parents: [], Children: [], Covering: []) 
+ FunctionPointerState: []
+ class org.sosy_lab.cpachecker.cpa.composite.CompositeState
+(LocationState: N1296 (line 1465)
+ CallstackState: Function main called from node N1296, stack depth 1 [2a0ea8b8]
+ AbstractionState: Abstraction location: true, Abstraction: ABS0: true
+ SingletonAbstractState: empty state
+ AutomatonState: AssertionAutomaton: Init 
+ AutomatonState: ErrorLabelAutomaton: Init 
+ AutomatonState: TerminatingFunctions: Init 
+)

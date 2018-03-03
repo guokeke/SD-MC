@@ -1,0 +1,7 @@
+digraph spec_initbufs {
+6587 [shape="circle"]
+6588 [shape="circle"]
+6588 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">6588</td><td align="left">no_name = 0;</td></tr><tr><td align="right">6589</td><td align="left">no_time = 0;</td></tr><tr><td align="right">6590</td><td align="left">time_stamp = 0L;</td></tr><tr><td align="right">6591</td><td align="left">save_orig_name = 0;</td></tr><tr><td align="right">6592</td><td align="left">ifile_size = -1L;</td></tr><tr><td align="right">6593</td><td align="left">to_stdout = 1;</td></tr><tr><td align="right">6594</td><td align="left">return;</td></tr></table>>]
+6588 -> 6586[label=""]
+6587 -> 6588 [label="Function start dummy edge" fontname="Courier New"]
+}

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/software/cpachecker/!svn/ver/3419/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/specificationeditor
+END
+IncludeHyperlinkDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/software/cpachecker/!svn/ver/1809/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/specificationeditor/IncludeHyperlinkDetector.java
+END
+SpecificationDoubleClickStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/software/cpachecker/!svn/ver/1689/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/specificationeditor/SpecificationDoubleClickStrategy.java
+END
+SpecificationPartitionScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/software/cpachecker/!svn/ver/1748/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/specificationeditor/SpecificationPartitionScanner.java
+END
+SpecificationEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/software/cpachecker/!svn/ver/1689/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/specificationeditor/SpecificationEditor.java
+END
+SpecificationConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/software/cpachecker/!svn/ver/3419/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/specificationeditor/SpecificationConfiguration.java
+END
+ColorManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/software/cpachecker/!svn/ver/1688/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/specificationeditor/ColorManager.java
+END
+IncludeHyperlink.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/software/cpachecker/!svn/ver/3417/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/specificationeditor/IncludeHyperlink.java
+END
+SpecificationDocumentProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/software/cpachecker/!svn/ver/1689/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/specificationeditor/SpecificationDocumentProvider.java
+END

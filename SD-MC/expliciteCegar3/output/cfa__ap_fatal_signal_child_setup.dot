@@ -1,0 +1,7 @@
+digraph ap_fatal_signal_child_setup {
+35 [shape="circle"]
+36 [shape="circle"]
+34 [shape="circle"]
+35 -> 36 [label="Function start dummy edge" fontname="Courier New"]
+36 -> 34 [label="default return" fontname="Courier New"]
+}

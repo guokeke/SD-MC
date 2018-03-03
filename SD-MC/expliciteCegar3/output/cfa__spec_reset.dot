@@ -1,0 +1,7 @@
+digraph spec_reset {
+6537 [shape="circle"]
+6538 [shape="circle"]
+6538 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">6538</td><td align="left">int tmp;</td></tr><tr><td align="right">6540</td><td align="left">memset((void *)((spec_fd[fd]).buf), 0, (unsigned int)((spec_fd[fd]).len));</td></tr><tr><td align="right">6541</td><td align="left">tmp = 0;</td></tr><tr><td align="right">6542</td><td align="left">(spec_fd[fd]).len = tmp;</td></tr><tr><td align="right">6543</td><td align="left">(spec_fd[fd]).pos = tmp;</td></tr><tr><td align="right">6544</td><td align="left">return 0;</td></tr></table>>]
+6538 -> 6536[label=""]
+6537 -> 6538 [label="Function start dummy edge" fontname="Courier New"]
+}

@@ -1,0 +1,1 @@
+p=>Global::closed == 0 && p=>Global::closed == 1

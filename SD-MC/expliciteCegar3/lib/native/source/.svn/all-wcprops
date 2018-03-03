@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/software/cpachecker/!svn/ver/6502/trunk/lib/native/source
+END
+get_jni_headers.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/software/cpachecker/!svn/ver/4696/trunk/lib/native/source/get_jni_headers.sh
+END

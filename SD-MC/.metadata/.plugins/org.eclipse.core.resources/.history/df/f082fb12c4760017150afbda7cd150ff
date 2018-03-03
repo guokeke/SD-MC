@@ -1,0 +1,222 @@
+package com.songstan.ltl_trans.jni;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.songstan.ltl_trans.method.Transition;
+
+public class NFGJni{
+    /**
+     * Resets ltlnfba.
+     */
+    private native void init();
+
+
+    /**
+     * Sets a formula in ltlnfba.
+     * @param f the formula
+     */
+    private native void setform(String f);
+
+    /**
+     * Parses the formula set by setForm.
+     * @see #setform(String)
+     */
+    private native void tl_parse();
+
+    /**
+     * Returns a pointer to the first state of the resulting automaton.
+     * This is a dummy state, since we have a circular list.
+     * @return the pointer to the state before to the first state of the resulting automaton
+     */
+    public native long nfg_states_head();
+
+    /**
+     * Returns a pointer to the last state of the resulting automaton.
+     * This is a dummy state, since we have a circular list.
+     * @return the pointer to the last state of the resulting automaton
+     */
+    public native long nfg_states_tail();
+
+    /**
+     * Returns the subsequent state to s in the list of all states.
+     * @param s pointer to a state
+     * @return pointer to the next state
+     */
+    public native long nfg_stateNxt(long s);
+
+    /**
+     * Returns the root of the transition list. This is a dummy object,
+     * since we have a circular list.
+     * @param s pointer to a state
+     * @return transition before the first outgoing transition of <code>s</code>
+     */
+    public native long nfg_stateFirstTrans(long s);
+
+    /**
+     * Next transition in the list after t.
+     * @param t a pointer to a transition
+     * @return next transition
+     * @see #bstateFirstTrans(long)
+     */
+    public native long nfg_transNxt(long t);
+
+    /**
+     * returns the string of the state of the automata.
+     * @param a pointer to the state
+     * @return state's string
+     */
+    public native String state_string(long state);
+
+    /**
+     * returns the string of the state's next state of the automata.
+     * @param a pointer to the state
+     * @return state's string
+     */
+    public native String trans__point_string(long state);
+
+    /**
+     * returns the string of the transition of the state of the automata.
+     * @param a pointer to the transition
+     * @return transition's string
+     */
+    public native String state_trans_string(long trans);
+
+    /**
+     * generate the next state of the state of the automata.
+     * @param a pointer to the state
+     *
+     */
+    public native void build_nfg_trans(long state);
+
+    /**
+     * returns final value of the transition.
+     * @param a pointer to the transition
+     * @return transition's final value
+     */
+    public native long trans_final(long t);
+
+    /**
+     * returns all the final value
+     * @return all the final value
+     */
+    public native long get_all_final();
+
+
+    private List<Transition> result;
+
+    static {
+        /* Initialize the dynamic libraries */
+        String workDir = new File("").getAbsolutePath();
+        String filePath = null;
+        //load required libraries
+        if (System.getProperty("os.name").startsWith("Windows")) {
+            filePath = workDir+"\\c-lib\\win32\\Project1.dll";
+        } else if (System.getProperty("os.name").startsWith("Linux")) {
+            filePath = workDir+"/c-lib/linux/ltlnfJni.so";
+        } else {
+            filePath = workDir+"ltlnfba";
+        }
+        if(filePath != null) {
+            try {
+                System.load(filePath);
+            } catch(Exception e) {
+                throw new RuntimeException("LTLNFBA: libary could not be loaded from "+filePath,e);
+            }
+        } else {
+            try {
+                System.loadLibrary("ltlnfba");
+            } catch(Exception e) {
+                throw new RuntimeException("LTLNFBA: Unsupported OS; and 'ltlnfba' libary could not be" +
+                        "loaded from 'java.library.path':\n" + System.getProperty("java.library.path",""),
+                        e);
+            }
+        }
+    }
+    public NFGJni(String formula) {
+        this.process(formula);
+    }
+    public NFGJni() {
+      // TODO Auto-generated constructor stub
+    }
+
+
+    public List<Transition> get_resutl(){
+    	return this.result;
+    }
+
+    /**
+     * Calls ltl2ba and constructs the output.
+     * @param formula a formula
+     * @throws IllegalArgumentException if formula has invalid syntax
+     * @throws RuntimeException if formula is longer than 4095 characters (ltl2ba limitation)
+     */
+
+    public void process(String formula) {
+        if(formula.length()>4095) {
+            throw new RuntimeException("LTL2BA limitation: formula must not be longer than 4095 characters");
+        }
+        result = new ArrayList<Transition>();
+        this.init();
+        this.setform(formula);
+        this.tl_parse();
+
+        try {
+           this.digestOutput();
+        } catch(IllegalArgumentException e) {
+            throw new IllegalArgumentException("Invalid formula: '"+formula+"'");
+        }
+    }
+
+    /**
+     * Builds the output objects from the internal state list.
+     * @throws IllegalArgumentException if formula has invalid syntax
+     */
+    public void digestOutput() {
+
+        //in the following, all "long" values are actually pointers in C !
+
+        //dummy node in the circular list of states
+        long head = this.nfg_states_head();
+        long tail = this.nfg_states_tail();
+
+        //if there was no error and so we have states
+        if(tail!=this.nfg_stateNxt(head)) {
+          int x=0;
+          long state=this.nfg_stateNxt(head);
+        	//for(long state=this.nfg_stateNxt(head);state!=tail;state=this.nfg_stateNxt(state)){
+        	  x++;
+        		String source_State = this.state_string(state);
+    			long fin1 = this.get_all_final();
+    			System.out.println("all the trans' final is");
+    			for(int j=0;j<32;j++){
+    				if((fin1&(1<<j))>0){
+    					System.out.print(j+" ");
+    				}
+    			}
+        		System.out.println("\n"+source_State);
+        		long trans = this.nfg_stateFirstTrans(state);
+        		for(long t = this.nfg_transNxt(trans);t!=trans;t=this.nfg_transNxt(t)){
+        			long fin = this.trans_final(t);
+        			System.out.println("the trans' final is");
+        			for(int i=0;i<32;i++){
+        				if((fin&(1<<i))>0){
+        					System.out.print(i+" ");
+        				}
+        			}
+        			System.out.println();
+        			String target_State = this.trans__point_string(t);
+        			String trans_label = this.state_trans_string(t);
+        			Transition one = new Transition(trans_label,source_State,target_State);
+        			//result.add(one);
+        			System.out.println(one);
+        			System.out.println("......one time ....");
+        		}
+        	//}
+        	System.out.println("x="+x);
+        } else {
+            throw new IllegalArgumentException("invalid formula");
+        }
+    }
+}

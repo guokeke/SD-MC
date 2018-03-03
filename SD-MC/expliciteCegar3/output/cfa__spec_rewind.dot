@@ -1,0 +1,7 @@
+digraph spec_rewind {
+6532 [shape="circle"]
+6533 [shape="circle"]
+6533 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">6533</td><td align="left">(spec_fd[fd]).pos = 0;</td></tr><tr><td align="right">6534</td><td align="left">return 0;</td></tr></table>>]
+6533 -> 6531[label=""]
+6532 -> 6533 [label="Function start dummy edge" fontname="Courier New"]
+}

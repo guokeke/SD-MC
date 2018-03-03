@@ -1,0 +1,2 @@
+p=>Global::die_now  ==  0 && q=>Global::do_ACCEPT != 0
+ 

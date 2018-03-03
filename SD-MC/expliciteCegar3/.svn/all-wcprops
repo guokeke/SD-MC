@@ -1,0 +1,55 @@
+END
+build-parser.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/software/cpachecker/!svn/ver/4918/trunk/build-parser.xml
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/software/cpachecker/!svn/ver/4891/trunk/build.properties
+END
+NEWS.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/software/cpachecker/!svn/ver/6470/trunk/NEWS.txt
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/software/cpachecker/!svn/ver/6473/trunk/README.txt
+END
+.pydevproject
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/software/cpachecker/!svn/ver/3113/trunk/.pydevproject
+END
+License_Apache-2.0.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/software/cpachecker/!svn/ver/3113/trunk/License_Apache-2.0.txt
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/software/cpachecker/!svn/ver/6472/trunk/build.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/software/cpachecker/!svn/ver/6471/trunk/.classpath
+END
+Authors.txt
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/software/cpachecker/!svn/ver/4730/trunk/Authors.txt
+END

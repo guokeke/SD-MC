@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/software/cpachecker/!svn/ver/6242/trunk/src/org/sosy_lab/cpachecker/cpa/assumptions/genericassumptions
+END
+GenericAssumptionBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/cpa/assumptions/genericassumptions/GenericAssumptionBuilder.java
+END
+GenericAssumptionsCPA.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/cpa/assumptions/genericassumptions/GenericAssumptionsCPA.java
+END
+ArithmeticOverflowAssumptionBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/software/cpachecker/!svn/ver/6242/trunk/src/org/sosy_lab/cpachecker/cpa/assumptions/genericassumptions/ArithmeticOverflowAssumptionBuilder.java
+END
+GenericAssumptionsDomain.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/software/cpachecker/!svn/ver/6169/trunk/src/org/sosy_lab/cpachecker/cpa/assumptions/genericassumptions/GenericAssumptionsDomain.java
+END
+GenericAssumptionsState.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/software/cpachecker/!svn/ver/6205/trunk/src/org/sosy_lab/cpachecker/cpa/assumptions/genericassumptions/GenericAssumptionsState.java
+END
+GenericAssumptionsTransferRelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/cpa/assumptions/genericassumptions/GenericAssumptionsTransferRelation.java
+END

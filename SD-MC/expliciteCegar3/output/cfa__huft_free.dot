@@ -1,0 +1,16 @@
+digraph huft_free {
+5369 [shape="circle"]
+5370 [shape="circle"]
+5376 [shape="doublecircle"]
+5378 [shape="circle"]
+5377 [shape="circle"]
+5368 [shape="circle"]
+5370 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">5370</td><td align="left">struct huft *p;</td></tr><tr><td align="right">5372</td><td align="left">struct huft *q;</td></tr><tr><td align="right">5374</td><td align="left">p = t;</td></tr><tr><td align="right">5375</td><td align="left">while</td></tr></table>>]
+5370 -> 5376[label=""]
+5377 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">5377</td><td align="left">p = p - 1;</td></tr><tr><td align="right">5379</td><td align="left">q = p-&gt;v.t;</td></tr><tr><td align="right">5380</td><td align="left">free((void *)((char *)p));</td></tr><tr><td align="right">5381</td><td align="left">p = q;</td></tr><tr><td align="right">5382</td><td align="left"></td></tr></table>>]
+5377 -> 5376[label=""]
+5369 -> 5370 [label="Function start dummy edge" fontname="Courier New"]
+5376 -> 5378 [label="[!(((unsigned int)p) != ((unsigned int)((struct huft *)((void *)0))))]" fontname="Courier New"]
+5376 -> 5377 [label="[((unsigned int)p) != ((unsigned int)((struct huft *)((void *)0)))]" fontname="Courier New"]
+5378 -> 5368 [label="return 0;" fontname="Courier New"]
+}

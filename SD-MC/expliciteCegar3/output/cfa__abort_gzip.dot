@@ -1,0 +1,17 @@
+digraph abort_gzip {
+5086 [shape="circle"]
+5087 [shape="diamond"]
+5088 [shape="circle"]
+5089 [shape="circle"]
+5092 [shape="circle"]
+5085 [shape="circle"]
+5089 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">5089</td><td align="left">close(ofd);</td></tr><tr><td align="right">5090</td><td align="left">unlink(ofname);</td></tr><tr><td align="right">5091</td><td align="left"></td></tr></table>>]
+5089 -> 5088[label=""]
+5086 -> 5087 [label="Function start dummy edge" fontname="Courier New"]
+5087 -> 5088 [label="[!(remove_ofname != 0)]" fontname="Courier New"]
+5087 -> 5089 [label="[remove_ofname != 0]" fontname="Courier New"]
+100179 [shape="component" label="do_exit"]
+5088 -> 100179 [label="do_exit(1);" fontname="Courier New"]
+100179 -> 5092 [label="" fontname="Courier New"]
+5092 -> 5085 [label="return;" fontname="Courier New"]
+}

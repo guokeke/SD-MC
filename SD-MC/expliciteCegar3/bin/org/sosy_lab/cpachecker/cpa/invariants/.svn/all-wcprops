@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/cpa/invariants
+END
+SimpleInterval.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/cpa/invariants/SimpleInterval.java
+END
+SimpleIntervalTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/cpa/invariants/SimpleIntervalTest.java
+END
+InvariantsState.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/software/cpachecker/!svn/ver/6170/trunk/src/org/sosy_lab/cpachecker/cpa/invariants/InvariantsState.java
+END
+InvariantsTransferRelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/cpa/invariants/InvariantsTransferRelation.java
+END
+InvariantsCPA.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/cpa/invariants/InvariantsCPA.java
+END
+InvariantsDomain.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/software/cpachecker/!svn/ver/6170/trunk/src/org/sosy_lab/cpachecker/cpa/invariants/InvariantsDomain.java
+END

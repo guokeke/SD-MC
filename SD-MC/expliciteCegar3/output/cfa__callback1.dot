@@ -1,0 +1,7 @@
+digraph callback1 {
+1 [shape="circle"]
+2 [shape="circle"]
+0 [shape="circle"]
+1 -> 2 [label="Function start dummy edge" fontname="Courier New"]
+2 -> 0 [label="default return" fontname="Courier New"]
+}

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/software/cpachecker/!svn/ver/6572/trunk/src/org/sosy_lab/cpachecker/cpa/bdd
+END
+BDDPrecision.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/software/cpachecker/!svn/ver/6452/trunk/src/org/sosy_lab/cpachecker/cpa/bdd/BDDPrecision.java
+END
+BDDPartitionOrderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/software/cpachecker/!svn/ver/6554/trunk/src/org/sosy_lab/cpachecker/cpa/bdd/BDDPartitionOrderer.java
+END
+BDDState.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/software/cpachecker/!svn/ver/6486/trunk/src/org/sosy_lab/cpachecker/cpa/bdd/BDDState.java
+END
+BDDTransferRelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/software/cpachecker/!svn/ver/6572/trunk/src/org/sosy_lab/cpachecker/cpa/bdd/BDDTransferRelation.java
+END
+BitvectorManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/software/cpachecker/!svn/ver/6505/trunk/src/org/sosy_lab/cpachecker/cpa/bdd/BitvectorManager.java
+END
+BDDCPA.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/software/cpachecker/!svn/ver/6486/trunk/src/org/sosy_lab/cpachecker/cpa/bdd/BDDCPA.java
+END
+BDDDomain.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/software/cpachecker/!svn/ver/6174/trunk/src/org/sosy_lab/cpachecker/cpa/bdd/BDDDomain.java
+END

@@ -1,0 +1,14 @@
+digraph write_error {
+1169 [shape="circle"]
+1170 [shape="circle"]
+1175 [shape="circle"]
+1176 [shape="circle"]
+1168 [shape="circle"]
+1170 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">1170</td><td align="left">struct _reent *tmp;</td></tr><tr><td align="right">1172</td><td align="left">tmp = __getreent();</td></tr><tr><td align="right">1173</td><td align="left">fprintf(tmp-&gt;_stderr, \"\n%s: \", progname);</td></tr><tr><td align="right">1174</td><td align="left">perror((const char *)ofname);</td></tr></table>>]
+1170 -> 1175[label=""]
+1169 -> 1170 [label="Function start dummy edge" fontname="Courier New"]
+100163 [shape="component" label="abort_gzip"]
+1175 -> 100163 [label="abort_gzip();" fontname="Courier New"]
+100163 -> 1176 [label="" fontname="Courier New"]
+1176 -> 1168 [label="return;" fontname="Courier New"]
+}

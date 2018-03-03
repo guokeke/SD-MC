@@ -1,0 +1,7 @@
+digraph clear_bufs {
+606 [shape="circle"]
+607 [shape="circle"]
+607 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">607</td><td align="left">outcnt = 0U;</td></tr><tr><td align="right">608</td><td align="left">inptr = 0U;</td></tr><tr><td align="right">609</td><td align="left">insize = inptr;</td></tr><tr><td align="right">610</td><td align="left">bytes_out = 0L;</td></tr><tr><td align="right">611</td><td align="left">bytes_in = bytes_out;</td></tr><tr><td align="right">612</td><td align="left">return;</td></tr></table>>]
+607 -> 605[label=""]
+606 -> 607 [label="Function start dummy edge" fontname="Courier New"]
+}

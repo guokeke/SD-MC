@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/software/cpachecker/!svn/ver/6532/trunk/src/org/sosy_lab/cpachecker/cpa/fsmbdd/interfaces
+END
+DomainIntervalProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/software/cpachecker/!svn/ver/6532/trunk/src/org/sosy_lab/cpachecker/cpa/fsmbdd/interfaces/DomainIntervalProvider.java
+END

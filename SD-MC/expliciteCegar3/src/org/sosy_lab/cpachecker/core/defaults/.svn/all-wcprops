@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/core/defaults
+END
+SingletonPrecision.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/core/defaults/SingletonPrecision.java
+END
+SingletonCPAFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/core/defaults/SingletonCPAFactory.java
+END
+AbstractCPAFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/core/defaults/AbstractCPAFactory.java
+END
+StopJoinOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/software/cpachecker/!svn/ver/6175/trunk/src/org/sosy_lab/cpachecker/core/defaults/StopJoinOperator.java
+END
+StopAlwaysOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/software/cpachecker/!svn/ver/6169/trunk/src/org/sosy_lab/cpachecker/core/defaults/StopAlwaysOperator.java
+END
+MergeSepOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/software/cpachecker/!svn/ver/6169/trunk/src/org/sosy_lab/cpachecker/core/defaults/MergeSepOperator.java
+END
+FlatLatticeDomain.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/software/cpachecker/!svn/ver/6175/trunk/src/org/sosy_lab/cpachecker/core/defaults/FlatLatticeDomain.java
+END
+NoOpReducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/core/defaults/NoOpReducer.java
+END
+BreakOnTargetsPrecisionAdjustment.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/software/cpachecker/!svn/ver/6175/trunk/src/org/sosy_lab/cpachecker/core/defaults/BreakOnTargetsPrecisionAdjustment.java
+END
+SingletonAbstractState.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/software/cpachecker/!svn/ver/6175/trunk/src/org/sosy_lab/cpachecker/core/defaults/SingletonAbstractState.java
+END
+AbstractCPA.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/core/defaults/AbstractCPA.java
+END
+AbstractSingleWrapperCPA.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/core/defaults/AbstractSingleWrapperCPA.java
+END
+MergeJoinOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/software/cpachecker/!svn/ver/6169/trunk/src/org/sosy_lab/cpachecker/core/defaults/MergeJoinOperator.java
+END
+IdentityTransferRelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/core/defaults/IdentityTransferRelation.java
+END
+StopNeverOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/software/cpachecker/!svn/ver/6169/trunk/src/org/sosy_lab/cpachecker/core/defaults/StopNeverOperator.java
+END
+StaticPrecisionAdjustment.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/software/cpachecker/!svn/ver/6175/trunk/src/org/sosy_lab/cpachecker/core/defaults/StaticPrecisionAdjustment.java
+END
+AutomaticCPAFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/software/cpachecker/!svn/ver/6211/trunk/src/org/sosy_lab/cpachecker/core/defaults/AutomaticCPAFactory.java
+END
+SimplePrecisionAdjustment.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/software/cpachecker/!svn/ver/6175/trunk/src/org/sosy_lab/cpachecker/core/defaults/SimplePrecisionAdjustment.java
+END
+AbstractSingleWrapperState.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/software/cpachecker/!svn/ver/6174/trunk/src/org/sosy_lab/cpachecker/core/defaults/AbstractSingleWrapperState.java
+END
+StopSepOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/software/cpachecker/!svn/ver/6174/trunk/src/org/sosy_lab/cpachecker/core/defaults/StopSepOperator.java
+END

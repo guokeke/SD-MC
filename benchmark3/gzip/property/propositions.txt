@@ -1,0 +1,1 @@
+p=>Global::temp_optc == 0 && q=>Global::temp_to_stdout == 1

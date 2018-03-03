@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/software/cpachecker/!svn/ver/6381/trunk/scripts/tempita
+END
+Readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/software/cpachecker/!svn/ver/6379/trunk/scripts/tempita/Readme.txt
+END
+compat3.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/software/cpachecker/!svn/ver/6379/trunk/scripts/tempita/compat3.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/software/cpachecker/!svn/ver/6381/trunk/scripts/tempita/__init__.py
+END
+_looper.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/software/cpachecker/!svn/ver/6379/trunk/scripts/tempita/_looper.py
+END

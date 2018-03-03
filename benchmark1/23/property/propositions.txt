@@ -1,0 +1,2 @@
+p=>Global::polling == 1
+ 

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/software/cpachecker/!svn/ver/6484/trunk/src/org/sosy_lab/cpachecker/util/predicates/interpolation
+END
+InterpolationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/software/cpachecker/!svn/ver/6484/trunk/src/org/sosy_lab/cpachecker/util/predicates/interpolation/InterpolationManager.java
+END
+UninstantiatingInterpolationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/software/cpachecker/!svn/ver/6014/trunk/src/org/sosy_lab/cpachecker/util/predicates/interpolation/UninstantiatingInterpolationManager.java
+END
+AbstractInterpolationBasedRefiner.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/software/cpachecker/!svn/ver/6209/trunk/src/org/sosy_lab/cpachecker/util/predicates/interpolation/AbstractInterpolationBasedRefiner.java
+END
+CounterexampleTraceInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/software/cpachecker/!svn/ver/6484/trunk/src/org/sosy_lab/cpachecker/util/predicates/interpolation/CounterexampleTraceInfo.java
+END
+DefaultInterpolationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/software/cpachecker/!svn/ver/5808/trunk/src/org/sosy_lab/cpachecker/util/predicates/interpolation/DefaultInterpolationManager.java
+END

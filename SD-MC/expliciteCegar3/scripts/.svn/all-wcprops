@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/software/cpachecker/!svn/ver/6606/trunk/scripts
+END
+benchmark-result.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/software/cpachecker/!svn/ver/6136/trunk/scripts/benchmark-result.dtd
+END
+benchmark.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/software/cpachecker/!svn/ver/6605/trunk/scripts/benchmark.py
+END
+table-generator.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/software/cpachecker/!svn/ver/6606/trunk/scripts/table-generator.py
+END
+benchmark.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/software/cpachecker/!svn/ver/6136/trunk/scripts/benchmark.dtd
+END
+report-generator.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/software/cpachecker/!svn/ver/6480/trunk/scripts/report-generator.py
+END
+regression.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/software/cpachecker/!svn/ver/6337/trunk/scripts/regression.py
+END
+report-template.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/software/cpachecker/!svn/ver/6382/trunk/scripts/report-template.html
+END
+table-generator-template.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/software/cpachecker/!svn/ver/6599/trunk/scripts/table-generator-template.html
+END
+cpa.bat
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/software/cpachecker/!svn/ver/6293/trunk/scripts/cpa.bat
+END
+Readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/software/cpachecker/!svn/ver/6257/trunk/scripts/Readme.txt
+END
+cpa.sh
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/software/cpachecker/!svn/ver/5307/trunk/scripts/cpa.sh
+END
+table-generator-template.csv
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/software/cpachecker/!svn/ver/6380/trunk/scripts/table-generator-template.csv
+END

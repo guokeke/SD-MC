@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/software/cpachecker/!svn/ver/6468/trunk/src/org/sosy_lab/cpachecker/cpa/featurevariables
+END
+FeatureVarsDomain.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/software/cpachecker/!svn/ver/6174/trunk/src/org/sosy_lab/cpachecker/cpa/featurevariables/FeatureVarsDomain.java
+END
+FeatureVarsPrecision.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/cpa/featurevariables/FeatureVarsPrecision.java
+END
+FeatureVarsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/software/cpachecker/!svn/ver/6211/trunk/src/org/sosy_lab/cpachecker/cpa/featurevariables/FeatureVarsTest.java
+END
+FeatureVarsState.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/software/cpachecker/!svn/ver/6170/trunk/src/org/sosy_lab/cpachecker/cpa/featurevariables/FeatureVarsState.java
+END
+FeatureVarsTransferRelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/software/cpachecker/!svn/ver/6242/trunk/src/org/sosy_lab/cpachecker/cpa/featurevariables/FeatureVarsTransferRelation.java
+END
+FeatureVarsCPA.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/software/cpachecker/!svn/ver/6468/trunk/src/org/sosy_lab/cpachecker/cpa/featurevariables/FeatureVarsCPA.java
+END

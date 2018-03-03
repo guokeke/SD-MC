@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/software/cpachecker/!svn/ver/3419/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/errorPathEditor
+END
+NonRuleBasedDamagerRepairer.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/software/cpachecker/!svn/ver/1627/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/errorPathEditor/NonRuleBasedDamagerRepairer.java
+END
+ErrorPathEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/software/cpachecker/!svn/ver/1607/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/errorPathEditor/ErrorPathEditor.java
+END
+ErrorPathToSourceFileHyperlink.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/software/cpachecker/!svn/ver/1607/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/errorPathEditor/ErrorPathToSourceFileHyperlink.java
+END
+ErrorPathSourceViewerConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/software/cpachecker/!svn/ver/3419/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/errorPathEditor/ErrorPathSourceViewerConfiguration.java
+END
+ErrorPathHyperlinkDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/software/cpachecker/!svn/ver/1809/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/editors/errorPathEditor/ErrorPathHyperlinkDetector.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/software/cpachecker/!svn/ver/5444/trunk/lib/native/source/libmathsatj
+END
+compile.sh
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/software/cpachecker/!svn/ver/4875/trunk/lib/native/source/libmathsatj/compile.sh
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/software/cpachecker/!svn/ver/4318/trunk/lib/native/source/libmathsatj/README.txt
+END
+org_sosy_1lab_cpachecker_util_predicates_mathsat_NativeApi.c
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/software/cpachecker/!svn/ver/5444/trunk/lib/native/source/libmathsatj/org_sosy_1lab_cpachecker_util_predicates_mathsat_NativeApi.c
+END

@@ -1,0 +1,7 @@
+digraph debug_time {
+6618 [shape="circle"]
+6619 [shape="circle"]
+6617 [shape="circle"]
+6618 -> 6619 [label="Function start dummy edge" fontname="Courier New"]
+6619 -> 6617 [label="return 0;" fontname="Courier New"]
+}

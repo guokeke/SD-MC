@@ -1,0 +1,57 @@
+
+创建CEGAR
+goingon
+all the trans' final is
+6 
+(true U ((false V ! (q ))&&p))
+the trans' final is
+6 
+(true U ((false V ! (q ))&&p)) --(! (q )&&p)--> (false V ! (q ))
+......one time ....
+the trans' final is
+
+(true U ((false V ! (q ))&&p)) --true--> (true U ((false V ! (q ))&&p))
+......one time ....
+x=1
+
+(true U ((false V ! (q ))&&p)) --(! (q )&&p)--> (false V ! (q ))
+......one time ....
+
+(true U ((false V ! (q ))&&p)) --true--> (true U ((false V ! (q ))&&p))
+......one time ....
+path.size=24
+all the trans' final is
+
+(false V ! (q ))
+the trans' final is
+
+(false V ! (q )) --! (q )--> (false V ! (q ))
+......one time ....
+x=1
+
+(false V ! (q )) --! (q )--> (false V ! (q ))
+......one time ....
+all the trans' final is
+6 
+(true U ((false V ! (q ))&&p))
+the trans' final is
+6 
+(true U ((false V ! (q ))&&p)) --(! (q )&&p)--> (false V ! (q ))
+......one time ....
+the trans' final is
+
+(true U ((false V ! (q ))&&p)) --true--> (true U ((false V ! (q ))&&p))
+......one time ....
+x=1
+
+(true U ((false V ! (q ))&&p)) --(! (q )&&p)--> (false V ! (q ))
+......one time ....
+
+(true U ((false V ! (q ))&&p)) --true--> (true U ((false V ! (q ))&&p))
+......one time ....
+内存1:36677632
+细化了0次,ref1=0
+memory:36677632
+time:1496
+Verification result: SAFE. No error path found by chosen configuration.
+More details about the verification run can be found in the directory "output/".

@@ -1,0 +1,11 @@
+digraph huf_decode_start {
+1895 [shape="circle"]
+1896 [shape="circle"]
+1894 [shape="circle"]
+1896 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">1896</td><td align="left">blocksize = 0U;</td></tr><tr><td align="right">1897</td><td align="left">return;</td></tr></table>>]
+1896 -> 1893[label=""]
+100330 [shape="component" label="init_getbits"]
+1895 -> 100330 [label="init_getbits();" fontname="Courier New"]
+100330 -> 1896 [label="" fontname="Courier New"]
+1894 -> 1895 [label="Function start dummy edge" fontname="Courier New"]
+}

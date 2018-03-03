@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/software/cpachecker/!svn/ver/6310/trunk/src/org/sosy_lab/cpachecker/util/invariants/choosers
+END
+TemplateChooser.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/software/cpachecker/!svn/ver/5543/trunk/src/org/sosy_lab/cpachecker/util/invariants/choosers/TemplateChooser.java
+END
+SingleLoopTemplateChooser.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/software/cpachecker/!svn/ver/6310/trunk/src/org/sosy_lab/cpachecker/util/invariants/choosers/SingleLoopTemplateChooser.java
+END

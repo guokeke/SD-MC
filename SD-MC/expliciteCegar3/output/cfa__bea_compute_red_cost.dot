@@ -1,0 +1,7 @@
+digraph bea_compute_red_cost {
+610 [shape="circle"]
+611 [shape="circle"]
+609 [shape="circle"]
+610 -> 611 [label="Function start dummy edge" fontname="Courier New"]
+611 -> 609 [label="return ((arc->cost) - (arc->tail->potential)) + (arc->head->potential);" fontname="Courier New"]
+}

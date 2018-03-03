@@ -1,0 +1,7 @@
+digraph unixd_setup_child {
+5 [shape="circle"]
+6 [shape="circle"]
+4 [shape="circle"]
+5 -> 6 [label="Function start dummy edge" fontname="Courier New"]
+6 -> 4 [label="return 0;" fontname="Courier New"]
+}

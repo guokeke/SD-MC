@@ -1,0 +1,46 @@
+10
+
+dir
+6615
+https://svn.sosy-lab.org/software/cpachecker/trunk/lib/native
+https://svn.sosy-lab.org/software/cpachecker
+
+
+
+2012-08-28T12:33:57.589315Z
+6502
+schremmer
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+4712c6d2-40bb-43ae-aa4b-fec3f1bdfe4c
+
+x86-macosx
+dir
+
+source
+dir
+
+x86-linux
+dir
+
+x86-win32
+dir
+
+x86_64-macosx
+dir
+
+x86_64-linux
+dir
+

@@ -1,0 +1,7 @@
+digraph SAFE_ACCEPT {
+20 [shape="circle"]
+21 [shape="circle"]
+19 [shape="circle"]
+20 -> 21 [label="Function start dummy edge" fontname="Courier New"]
+21 -> 19 [label="return 0;" fontname="Courier New"]
+}

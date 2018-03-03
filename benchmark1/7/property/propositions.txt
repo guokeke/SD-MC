@@ -1,0 +1,2 @@
+p=>Global::added  >=  0 && q=>Global::ret == 1
+ 

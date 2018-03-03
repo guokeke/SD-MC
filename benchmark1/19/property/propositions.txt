@@ -1,0 +1,2 @@
+p=>Global::lock == 1 && q=>Global::lock == 0
+ 

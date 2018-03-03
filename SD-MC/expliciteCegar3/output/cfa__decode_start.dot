@@ -1,0 +1,11 @@
+digraph decode_start {
+1901 [shape="circle"]
+1902 [shape="circle"]
+1900 [shape="circle"]
+1902 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">1902</td><td align="left">j = 0;</td></tr><tr><td align="right">1903</td><td align="left">done = 0;</td></tr><tr><td align="right">1904</td><td align="left">return;</td></tr></table>>]
+1902 -> 1899[label=""]
+100324 [shape="component" label="huf_decode_start"]
+1901 -> 100324 [label="huf_decode_start();" fontname="Courier New"]
+100324 -> 1902 [label="" fontname="Courier New"]
+1900 -> 1901 [label="Function start dummy edge" fontname="Courier New"]
+}

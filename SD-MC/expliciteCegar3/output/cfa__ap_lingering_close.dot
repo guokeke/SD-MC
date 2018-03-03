@@ -1,0 +1,7 @@
+digraph ap_lingering_close {
+111 [shape="circle"]
+112 [shape="circle"]
+110 [shape="circle"]
+111 -> 112 [label="Function start dummy edge" fontname="Courier New"]
+112 -> 110 [label="default return" fontname="Courier New"]
+}

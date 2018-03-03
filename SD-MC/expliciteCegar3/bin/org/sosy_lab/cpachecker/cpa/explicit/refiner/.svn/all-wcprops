@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/software/cpachecker/!svn/ver/6610/trunk/src/org/sosy_lab/cpachecker/cpa/explicit/refiner
+END
+DelegatingExplicitRefiner.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/software/cpachecker/!svn/ver/6600/trunk/src/org/sosy_lab/cpachecker/cpa/explicit/refiner/DelegatingExplicitRefiner.java
+END
+ExplicitInterpolationBasedExplicitRefiner.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/software/cpachecker/!svn/ver/6610/trunk/src/org/sosy_lab/cpachecker/cpa/explicit/refiner/ExplicitInterpolationBasedExplicitRefiner.java
+END
+PredicatingExplicitRefiner.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/software/cpachecker/!svn/ver/6524/trunk/src/org/sosy_lab/cpachecker/cpa/explicit/refiner/PredicatingExplicitRefiner.java
+END

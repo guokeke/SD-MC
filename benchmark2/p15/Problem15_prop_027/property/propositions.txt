@@ -1,0 +1,2 @@
+p=>Global::output == 25 && q=>Global::input == 2
+ 

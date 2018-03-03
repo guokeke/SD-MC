@@ -1,0 +1,16 @@
+digraph cpyvec {
+11304 [shape="circle"]
+11305 [shape="circle"]
+11309 [shape="doublecircle"]
+11311 [shape="circle"]
+11310 [shape="circle"]
+11303 [shape="circle"]
+11305 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">11305</td><td align="left">int i;</td></tr><tr><td align="right">11307</td><td align="left">i = 0;</td></tr><tr><td align="right">11308</td><td align="left">while</td></tr></table>>]
+11305 -> 11309[label=""]
+11310 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">11310</td><td align="left">*(copy + i) = *(orig + i);</td></tr><tr><td align="right">11312</td><td align="left">i = i + 1;</td></tr><tr><td align="right">11313</td><td align="left"></td></tr></table>>]
+11310 -> 11309[label=""]
+11304 -> 11305 [label="Function start dummy edge" fontname="Courier New"]
+11309 -> 11311 [label="[!(i < n)]" fontname="Courier New"]
+11309 -> 11310 [label="[i < n]" fontname="Courier New"]
+11311 -> 11303 [label="return;" fontname="Courier New"]
+}

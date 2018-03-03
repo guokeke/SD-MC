@@ -1,0 +1,13 @@
+digraph getopt_long {
+3173 [shape="circle"]
+3174 [shape="circle"]
+3176 [shape="circle"]
+3177 [shape="circle"]
+3172 [shape="circle"]
+3173 -> 3174 [label="Function start dummy edge" fontname="Courier New"]
+100152 [shape="component" label="_getopt_internal"]
+3176 -> 100152 [label="tmp = _getopt_internal(argc, argv, options, long_options, opt_index, 0);" fontname="Courier New"]
+100152 -> 3177 [label="" fontname="Courier New"]
+3174 -> 3176 [label="int tmp;" fontname="Courier New"]
+3177 -> 3172 [label="return tmp;" fontname="Courier New"]
+}

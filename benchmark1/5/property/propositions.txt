@@ -1,0 +1,2 @@
+p=>Global::c  >  Global::s && q=>Global::resp > Global::s
+ 

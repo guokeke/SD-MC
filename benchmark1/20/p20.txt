@@ -1,0 +1,57 @@
+frame(WItemsNum, fp_executionPath) and (
+int WItemsNum and skip;
+FILE* fp_executionPath <== fopen("D:\\Eclipse-TPChecker\\expliciteCegar3\\executionPath.txt", "w") and skip;
+
+ function callback1 (  )
+ {
+     skip
+ };
+ function callback2 (  )
+ {
+     skip
+ };
+ function main (  )
+ {
+     frame(main_1_rand_x) and (
+     WItemsNum:=rand(RValue);
+     while( 1)
+     {
+          fputs("[1]\n" ,fp_executionPath ) and skip;
+         int main_1_rand_x and skip;
+         main_1_rand_x:=rand(RValue);
+         while( WItemsNum<=5 OR main_1_rand_x)
+         {
+              fputs("[WItemsNum<=5 || rand_x]\n" ,fp_executionPath ) and skip;
+             if(WItemsNum<=5) then 
+             {
+                  fputs("[WItemsNum<=5]\n",fp_executionPath) and skip;
+                 callback1();
+                 WItemsNum:=WItemsNum+1
+                 
+             }
+             else
+             { 
+              fputs("[!(WItemsNum<=5)]\n",fp_executionPath) and skip;
+             WItemsNum:=WItemsNum+1
+         };
+         main_1_rand_x:=rand(RValue)
+     };
+     fputs("[!(WItemsNum<=5 || rand_x)]\n",fp_executionPath) and skip ;
+     while(WItemsNum>2)
+     {
+          fputs("[WItemsNum>2]\n",fp_executionPath) and skip;
+         callback2();
+         WItemsNum:=WItemsNum-1
+     };
+     fputs("[!(WItemsNum>2)]\n",fp_executionPath) and skip
+ };
+ fputs("[!(1)]\n",fp_executionPath) and skip ;
+ while(1)
+ {
+      fputs("[1]\n",fp_executionPath) and skip
+ };
+ fputs("[!(1)]\n",fp_executionPath) and skip
+ )
+ };
+  main()
+ )

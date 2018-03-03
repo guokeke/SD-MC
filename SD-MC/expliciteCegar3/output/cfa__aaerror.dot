@@ -1,0 +1,7 @@
+digraph aaerror {
+5771 [shape="circle"]
+5772 [shape="circle"]
+5772 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">5772</td><td align="left">struct _reent *tmp;</td></tr><tr><td align="right">5774</td><td align="left">tmp = __getreent();</td></tr><tr><td align="right">5775</td><td align="left">fprintf(tmp-&gt;_stderr, \"%s \n\", line);</td></tr><tr><td align="right">5776</td><td align="left">return;</td></tr></table>>]
+5772 -> 5770[label=""]
+5771 -> 5772 [label="Function start dummy edge" fontname="Courier New"]
+}

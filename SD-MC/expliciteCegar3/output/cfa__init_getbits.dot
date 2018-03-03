@@ -1,0 +1,11 @@
+digraph init_getbits {
+1512 [shape="circle"]
+1513 [shape="circle"]
+1507 [shape="circle"]
+1508 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">1508</td><td align="left">Function start dummy edge</td></tr><tr><td align="right">1509</td><td align="left">bitbuf = 0UL;</td></tr><tr><td align="right">1510</td><td align="left">subbitbuf = 0U;</td></tr><tr><td align="right">1511</td><td align="left">bitcount = 0;</td></tr></table>>]
+1508 -> 1512[label=""]
+100159 [shape="component" label="fillbuf"]
+1512 -> 100159 [label="fillbuf((int)(16U * (sizeof(char))));" fontname="Courier New"]
+100159 -> 1513 [label="" fontname="Courier New"]
+1513 -> 1507 [label="return;" fontname="Courier New"]
+}

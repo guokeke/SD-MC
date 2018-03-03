@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/software/cpachecker/!svn/ver/6580/trunk/scripts/results
+END
+quantilePlot.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/software/cpachecker/!svn/ver/6580/trunk/scripts/results/quantilePlot.sh
+END
+round.sh
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/software/cpachecker/!svn/ver/2742/trunk/scripts/results/round.sh
+END
+csv_to_latex.sh
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/software/cpachecker/!svn/ver/2517/trunk/scripts/results/csv_to_latex.sh
+END

@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/software/cpachecker/!svn/ver/6240/trunk/src/org/sosy_lab/cpachecker/core/interfaces
+END
+AbstractQueryableState.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/software/cpachecker/!svn/ver/6240/trunk/src/org/sosy_lab/cpachecker/core/interfaces/AbstractQueryableState.java
+END
+CounterexampleChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/software/cpachecker/!svn/ver/6175/trunk/src/org/sosy_lab/cpachecker/core/interfaces/CounterexampleChecker.java
+END
+ForcedCoveringStopOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/software/cpachecker/!svn/ver/6175/trunk/src/org/sosy_lab/cpachecker/core/interfaces/ForcedCoveringStopOperator.java
+END
+TransferRelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/core/interfaces/TransferRelation.java
+END
+AbstractStateWithLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/core/interfaces/AbstractStateWithLocation.java
+END
+Reducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/core/interfaces/Reducer.java
+END
+PrecisionAdjustment.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/software/cpachecker/!svn/ver/6175/trunk/src/org/sosy_lab/cpachecker/core/interfaces/PrecisionAdjustment.java
+END
+Refiner.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/core/interfaces/Refiner.java
+END
+Statistics.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/core/interfaces/Statistics.java
+END
+Precision.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/core/interfaces/Precision.java
+END
+CPAFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/core/interfaces/CPAFactory.java
+END
+AbstractDomain.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/software/cpachecker/!svn/ver/6175/trunk/src/org/sosy_lab/cpachecker/core/interfaces/AbstractDomain.java
+END
+ConfigurableProgramAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/core/interfaces/ConfigurableProgramAnalysis.java
+END
+WrapperPrecision.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/core/interfaces/WrapperPrecision.java
+END
+Partitionable.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/core/interfaces/Partitionable.java
+END
+ForcedCovering.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/software/cpachecker/!svn/ver/6175/trunk/src/org/sosy_lab/cpachecker/core/interfaces/ForcedCovering.java
+END
+FormulaReportingState.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/software/cpachecker/!svn/ver/6175/trunk/src/org/sosy_lab/cpachecker/core/interfaces/FormulaReportingState.java
+END
+StopOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/software/cpachecker/!svn/ver/6175/trunk/src/org/sosy_lab/cpachecker/core/interfaces/StopOperator.java
+END
+WrapperCPA.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/core/interfaces/WrapperCPA.java
+END
+AbstractState.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/software/cpachecker/!svn/ver/6169/trunk/src/org/sosy_lab/cpachecker/core/interfaces/AbstractState.java
+END
+AbstractWrapperState.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/software/cpachecker/!svn/ver/6174/trunk/src/org/sosy_lab/cpachecker/core/interfaces/AbstractWrapperState.java
+END
+StatisticsProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/core/interfaces/StatisticsProvider.java
+END
+ConfigurableProgramAnalysisWithABM.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/core/interfaces/ConfigurableProgramAnalysisWithABM.java
+END
+ProofChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/core/interfaces/ProofChecker.java
+END
+Targetable.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/software/cpachecker/!svn/ver/6175/trunk/src/org/sosy_lab/cpachecker/core/interfaces/Targetable.java
+END
+MergeOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/software/cpachecker/!svn/ver/6175/trunk/src/org/sosy_lab/cpachecker/core/interfaces/MergeOperator.java
+END

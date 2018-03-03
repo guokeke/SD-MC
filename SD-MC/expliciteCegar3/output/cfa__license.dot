@@ -1,0 +1,13 @@
+digraph license {
+293 [shape="doublecircle"]
+295 [shape="circle"]
+294 [shape="circle"]
+283 [shape="circle"]
+284 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">284</td><td align="left">Function start dummy edge</td></tr><tr><td align="right">285</td><td align="left">char **p;</td></tr><tr><td align="right">287</td><td align="left">char **tmp;</td></tr><tr><td align="right">289</td><td align="left">struct _reent *tmp___0;</td></tr><tr><td align="right">291</td><td align="left">p = license_msg;</td></tr><tr><td align="right">292</td><td align="left">while</td></tr></table>>]
+284 -> 293[label=""]
+294 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">294</td><td align="left">tmp = p;</td></tr><tr><td align="right">296</td><td align="left">p = p + 1;</td></tr><tr><td align="right">297</td><td align="left">tmp___0 = __getreent();</td></tr><tr><td align="right">298</td><td align="left">fprintf(tmp___0-&gt;_stderr, \"%s\n\", *tmp);</td></tr><tr><td align="right">299</td><td align="left"></td></tr></table>>]
+294 -> 293[label=""]
+293 -> 295 [label="[!((*p) != 0)]" fontname="Courier New"]
+293 -> 294 [label="[(*p) != 0]" fontname="Courier New"]
+295 -> 283 [label="return;" fontname="Courier New"]
+}

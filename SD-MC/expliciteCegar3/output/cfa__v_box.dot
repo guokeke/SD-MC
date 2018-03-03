@@ -1,0 +1,7 @@
+digraph v_box {
+4569 [shape="circle"]
+4570 [shape="circle"]
+4568 [shape="circle"]
+4569 -> 4570 [label="Function start dummy edge" fontname="Courier New"]
+4570 -> 4568 [label="return 0;" fontname="Courier New"]
+}

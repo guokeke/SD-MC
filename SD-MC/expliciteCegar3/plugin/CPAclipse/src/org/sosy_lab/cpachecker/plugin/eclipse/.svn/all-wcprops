@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/software/cpachecker/!svn/ver/5342/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse
+END
+TaskRunner.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/software/cpachecker/!svn/ver/5286/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/TaskRunner.java
+END
+TasksIO.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/software/cpachecker/!svn/ver/1688/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/TasksIO.java
+END
+ITaskListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/software/cpachecker/!svn/ver/1809/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/ITaskListener.java
+END
+Task.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/software/cpachecker/!svn/ver/2655/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/Task.java
+END
+CPAclipse.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/software/cpachecker/!svn/ver/1809/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/CPAclipse.java
+END

@@ -1,0 +1,14 @@
+digraph getbits {
+1500 [shape="circle"]
+1501 [shape="circle"]
+1504 [shape="circle"]
+1505 [shape="circle"]
+1499 [shape="circle"]
+1501 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">1501</td><td align="left">unsigned int x;</td></tr><tr><td align="right">1503</td><td align="left">x = (unsigned int)(bitbuf &gt;&gt; ((16U * (sizeof(char))) - ((unsigned int)n)));</td></tr></table>>]
+1501 -> 1504[label=""]
+1500 -> 1501 [label="Function start dummy edge" fontname="Courier New"]
+100260 [shape="component" label="fillbuf"]
+1504 -> 100260 [label="fillbuf(n);" fontname="Courier New"]
+100260 -> 1505 [label="" fontname="Courier New"]
+1505 -> 1499 [label="return x;" fontname="Courier New"]
+}

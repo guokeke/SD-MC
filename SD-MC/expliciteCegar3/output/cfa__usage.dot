@@ -1,0 +1,7 @@
+digraph usage {
+257 [shape="circle"]
+258 [shape="circle"]
+258 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">258</td><td align="left">struct _reent *tmp;</td></tr><tr><td align="right">260</td><td align="left">tmp = __getreent();</td></tr><tr><td align="right">261</td><td align="left">fprintf(tmp-&gt;_stderr, \"usage: %s [-%scdfhlLnN%stvV19] [-S suffix] [file ...]\n\", progname, \"a\", \"\");</td></tr><tr><td align="right">262</td><td align="left">return;</td></tr></table>>]
+258 -> 256[label=""]
+257 -> 258 [label="Function start dummy edge" fontname="Courier New"]
+}

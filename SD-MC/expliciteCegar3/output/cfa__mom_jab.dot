@@ -1,0 +1,13 @@
+digraph mom_jab {
+8301 [shape="diamond"]
+8302 [shape="circle"]
+8303 [shape="circle"]
+8291 [shape="circle"]
+8292 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">8292</td><td align="left">Function start dummy edge</td></tr><tr><td align="right">8293</td><td align="left">double a;</td></tr><tr><td align="right">8295</td><td align="left">double b;</td></tr><tr><td align="right">8297</td><td align="left">double b2;</td></tr><tr><td align="right">8299</td><td align="left">double tmp;</td></tr></table>>]
+8292 -> 8301[label=""]
+8303 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">8303</td><td align="left">tmp = sqrt(j1___0 * j2);</td></tr><tr><td align="right">8304</td><td align="left">a = tmp / 2;</td></tr><tr><td align="right">8305</td><td align="left">r = 1.1 * r;</td></tr><tr><td align="right">8306</td><td align="left">b = exp(-r);</td></tr><tr><td align="right">8307</td><td align="left">b2 = 1 + ((((((double)15) * r) - ((((double)9) * r) * r)) - ((r * r) * r)) / 48);</td></tr><tr><td align="right">8308</td><td align="left">return (a / r) * (b * b2);</td></tr></table>>]
+8303 -> 8291[label=""]
+8301 -> 8302 [label="[!(r < 30)]" fontname="Courier New"]
+8301 -> 8303 [label="[r < 30]" fontname="Courier New"]
+8302 -> 8291 [label="return (14.4 / r) / ((double)2);" fontname="Courier New"]
+}

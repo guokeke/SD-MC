@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/software/cpachecker/!svn/ver/6502/trunk/lib
+END
+ivy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/software/cpachecker/!svn/ver/6475/trunk/lib/ivy.xml
+END
+eclipse-cdt6-parser.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/software/cpachecker/!svn/ver/3424/trunk/lib/eclipse-cdt6-parser.jar
+END
+ivysettings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/software/cpachecker/!svn/ver/6472/trunk/lib/ivysettings.xml
+END
+license-octagon.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/software/cpachecker/!svn/ver/2136/trunk/lib/license-octagon.txt
+END
+ReadMe.txt
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/software/cpachecker/!svn/ver/6471/trunk/lib/ReadMe.txt
+END
+LGPL.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/software/cpachecker/!svn/ver/2028/trunk/lib/LGPL.txt
+END
+edu.cmu.sei.rtss.jldd.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/software/cpachecker/!svn/ver/5561/trunk/lib/edu.cmu.sei.rtss.jldd.jar
+END
+license-libmathsatj.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/software/cpachecker/!svn/ver/2136/trunk/lib/license-libmathsatj.txt
+END
+license-icu4j.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/software/cpachecker/!svn/ver/4891/trunk/lib/license-icu4j.html
+END
+license-cbmc.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/software/cpachecker/!svn/ver/2137/trunk/lib/license-cbmc.txt
+END
+license-cup.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/software/cpachecker/!svn/ver/2136/trunk/lib/license-cup.txt
+END

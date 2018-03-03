@@ -1,0 +1,7 @@
+digraph apr_pollset_create {
+81 [shape="circle"]
+82 [shape="circle"]
+80 [shape="circle"]
+81 -> 82 [label="Function start dummy edge" fontname="Courier New"]
+82 -> 80 [label="default return" fontname="Courier New"]
+}

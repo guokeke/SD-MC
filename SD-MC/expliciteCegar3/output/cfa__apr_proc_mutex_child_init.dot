@@ -1,0 +1,7 @@
+digraph apr_proc_mutex_child_init {
+59 [shape="circle"]
+60 [shape="circle"]
+60 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">60</td><td align="left">int rand_x;</td></tr><tr><td align="right">62</td><td align="left">rand_x = rand();</td></tr><tr><td align="right">63</td><td align="left">return rand_x;</td></tr></table>>]
+60 -> 58[label=""]
+59 -> 60 [label="Function start dummy edge" fontname="Courier New"]
+}

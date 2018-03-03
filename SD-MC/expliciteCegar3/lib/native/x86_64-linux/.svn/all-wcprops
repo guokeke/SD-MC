@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/software/cpachecker/!svn/ver/6470/trunk/lib/native/x86_64-linux
+END
+libmathsatj.so
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/software/cpachecker/!svn/ver/4875/trunk/lib/native/x86_64-linux/libmathsatj.so
+END
+cbmc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/software/cpachecker/!svn/ver/5348/trunk/lib/native/x86_64-linux/cbmc
+END
+csisat
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/software/cpachecker/!svn/ver/1650/trunk/lib/native/x86_64-linux/csisat
+END
+libJOct.so
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/software/cpachecker/!svn/ver/4697/trunk/lib/native/x86_64-linux/libJOct.so
+END
+libmathsat5j.so
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/software/cpachecker/!svn/ver/6447/trunk/lib/native/x86_64-linux/libmathsat5j.so
+END

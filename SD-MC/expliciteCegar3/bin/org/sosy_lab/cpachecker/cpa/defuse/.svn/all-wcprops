@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/software/cpachecker/!svn/ver/6242/trunk/src/org/sosy_lab/cpachecker/cpa/defuse
+END
+DefUseState.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/software/cpachecker/!svn/ver/6242/trunk/src/org/sosy_lab/cpachecker/cpa/defuse/DefUseState.java
+END
+DefUseTransferRelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/cpa/defuse/DefUseTransferRelation.java
+END
+DefUseCPA.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/software/cpachecker/!svn/ver/6242/trunk/src/org/sosy_lab/cpachecker/cpa/defuse/DefUseCPA.java
+END
+DefUseDomain.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/software/cpachecker/!svn/ver/6170/trunk/src/org/sosy_lab/cpachecker/cpa/defuse/DefUseDomain.java
+END
+DefUseDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/cpa/defuse/DefUseDefinition.java
+END

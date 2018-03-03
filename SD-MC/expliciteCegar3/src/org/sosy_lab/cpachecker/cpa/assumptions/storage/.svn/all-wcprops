@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/cpa/assumptions/storage
+END
+AssumptionStorageCPA.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/cpa/assumptions/storage/AssumptionStorageCPA.java
+END
+AssumptionStorageStop.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/software/cpachecker/!svn/ver/6174/trunk/src/org/sosy_lab/cpachecker/cpa/assumptions/storage/AssumptionStorageStop.java
+END
+AssumptionStorageDomain.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/software/cpachecker/!svn/ver/6170/trunk/src/org/sosy_lab/cpachecker/cpa/assumptions/storage/AssumptionStorageDomain.java
+END
+AssumptionStorageState.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/software/cpachecker/!svn/ver/6174/trunk/src/org/sosy_lab/cpachecker/cpa/assumptions/storage/AssumptionStorageState.java
+END
+AssumptionStorageTransferRelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/cpa/assumptions/storage/AssumptionStorageTransferRelation.java
+END

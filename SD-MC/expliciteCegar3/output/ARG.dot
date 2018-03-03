@@ -1,0 +1,8 @@
+digraph ARG {
+node [style="filled" shape="box" color="white"]
+1 [fillcolor="cornflowerblue" label="1 @ N1296
+propositions {!p,!p}
+properties{ !(p-><>q)}
+Util:null
+\nABS0: true" id="1"]
+}

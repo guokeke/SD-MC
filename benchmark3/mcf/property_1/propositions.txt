@@ -1,0 +1,1 @@
+p1=>Global::temp_ver == 0 && p2=>Global::temp_ver1 == 1 && p3=>Global::p3 => Global::temp_ver2 == 1 && p4=>Global::temp_ver3 == 1

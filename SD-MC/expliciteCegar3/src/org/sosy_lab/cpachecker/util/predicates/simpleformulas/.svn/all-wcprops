@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/util/predicates/simpleformulas
+END
+Variable.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/util/predicates/simpleformulas/Variable.java
+END
+Term.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/util/predicates/simpleformulas/Term.java
+END
+TermVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/util/predicates/simpleformulas/TermVisitor.java
+END
+Constant.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/util/predicates/simpleformulas/Constant.java
+END
+Predicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/util/predicates/simpleformulas/Predicate.java
+END

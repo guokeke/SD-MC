@@ -1,0 +1,13 @@
+digraph bi_init {
+2029 [shape="diamond"]
+2030 [shape="circle"]
+2031 [shape="circle"]
+2024 [shape="circle"]
+2025 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">2025</td><td align="left">Function start dummy edge</td></tr><tr><td align="right">2026</td><td align="left">zfile = zipfile;</td></tr><tr><td align="right">2027</td><td align="left">bi_buf = (unsigned short)0;</td></tr><tr><td align="right">2028</td><td align="left">bi_valid = 0;</td></tr></table>>]
+2025 -> 2029[label=""]
+2031 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">2031</td><td align="left">read_buf = &amp;file_read;</td></tr><tr><td align="right">2032</td><td align="left"></td></tr></table>>]
+2031 -> 2030[label=""]
+2029 -> 2030 [label="[!(zfile != (-1))]" fontname="Courier New"]
+2029 -> 2031 [label="[zfile != (-1)]" fontname="Courier New"]
+2030 -> 2024 [label="return;" fontname="Courier New"]
+}

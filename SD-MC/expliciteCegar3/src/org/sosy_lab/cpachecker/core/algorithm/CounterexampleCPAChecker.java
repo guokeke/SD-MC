@@ -1,0 +1,176 @@
+/*
+ *  CPAchecker is a tool for configurable software verification.
+ *  This file is part of CPAchecker.
+ *
+ *  Copyright (C) 2007-2012  Dirk Beyer
+ *  All rights reserved.
+ *
+ *  Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ *  You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *  Unless required by applicable law or agreed to in writing, software
+ *  distributed under the License is distributed on an "AS IS" BASIS,
+ *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *  See the License for the specific language governing permissions and
+ *  limitations under the License.
+ *
+ *
+ *  CPAchecker web page:
+ *    http://cpachecker.sosy-lab.org
+ */
+package org.sosy_lab.cpachecker.core.algorithm;
+
+import static com.google.common.collect.FluentIterable.from;
+import static org.sosy_lab.cpachecker.util.AbstractStates.*;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Set;
+
+import org.sosy_lab.common.Files;
+import org.sosy_lab.common.LogManager;
+import org.sosy_lab.common.configuration.Configuration;
+import org.sosy_lab.common.configuration.FileOption;
+import org.sosy_lab.common.configuration.InvalidConfigurationException;
+import org.sosy_lab.common.configuration.Option;
+import org.sosy_lab.common.configuration.Options;
+import org.sosy_lab.cpachecker.cfa.CFA;
+import org.sosy_lab.cpachecker.cfa.model.CFAEdge;
+import org.sosy_lab.cpachecker.cfa.model.CFANode;
+import org.sosy_lab.cpachecker.cfa.model.FunctionEntryNode;
+import org.sosy_lab.cpachecker.core.CPABuilder;
+import org.sosy_lab.cpachecker.core.interfaces.ConfigurableProgramAnalysis;
+import org.sosy_lab.cpachecker.core.interfaces.CounterexampleChecker;
+import org.sosy_lab.cpachecker.core.reachedset.PartitionedReachedSet;
+import org.sosy_lab.cpachecker.core.reachedset.ReachedSetFactory;
+import org.sosy_lab.cpachecker.core.waitlist.Waitlist.TraversalMethod;
+import org.sosy_lab.cpachecker.cpa.arg.ARGState;
+import org.sosy_lab.cpachecker.exceptions.CPAException;
+import org.sosy_lab.cpachecker.exceptions.CounterexampleAnalysisFailed;
+import org.sosy_lab.cpachecker.util.AbstractStates;
+
+@Options(prefix="counterexample.checker")
+public class CounterexampleCPAChecker implements CounterexampleChecker {
+
+  private final LogManager logger;
+  private final ReachedSetFactory reachedSetFactory;
+  private final CFA cfa;
+
+  @Option(name="config",
+      description="configuration file for counterexample checks with CPAchecker")
+  @FileOption(FileOption.Type.REQUIRED_INPUT_FILE)
+  private File configFile = new File("config/explicitAnalysis-no-cbmc.properties");
+
+  public CounterexampleCPAChecker(Configuration config, LogManager logger, ReachedSetFactory pReachedSetFactory, CFA pCfa) throws InvalidConfigurationException {
+    this.logger = logger;
+    config.inject(this);
+    this.reachedSetFactory = pReachedSetFactory;
+    this.cfa = pCfa;
+  }
+
+  @Override
+  public boolean checkCounterexample(ARGState pRootState,
+      ARGState pErrorState, Set<ARGState> pErrorPathStates)
+      throws CPAException, InterruptedException {
+
+    String automaton =
+        produceGuidingAutomaton(pRootState, pErrorPathStates);
+
+    File automatonFile;
+    try {
+      automatonFile = Files.createTempFile("automaton", ".txt", automaton);
+    } catch (IOException e) {
+      throw new CounterexampleAnalysisFailed("Could not write path automaton to file " + e.getMessage(), e);
+    }
+
+    FunctionEntryNode entryNode = (FunctionEntryNode)extractLocation(pRootState);
+
+    try {
+      Configuration lConfig = Configuration.builder()
+              .loadFromFile(configFile)
+              .setOption("specification", automatonFile.getAbsolutePath())
+              .build();
+
+      CPABuilder lBuilder = new CPABuilder(lConfig, logger, reachedSetFactory);
+      ConfigurableProgramAnalysis lCpas = lBuilder.buildCPAs(cfa);
+      Algorithm lAlgorithm = new CPAAlgorithm(lCpas, logger, lConfig);
+      PartitionedReachedSet lReached = new PartitionedReachedSet(TraversalMethod.DFS);
+      lReached.add(lCpas.getInitialState(entryNode), lCpas.getInitialPrecision(entryNode));
+
+      lAlgorithm.run(lReached);
+
+      // counterexample is feasible if a target state is reachable
+      return from(lReached).anyMatch(IS_TARGET_STATE);
+
+    } catch (InvalidConfigurationException e) {
+      throw new CounterexampleAnalysisFailed("Invalid configuration in counterexample-check config: " + e.getMessage(), e);
+    } catch (IOException e) {
+      throw new CounterexampleAnalysisFailed(e.getMessage(), e);
+    } finally {
+      // delete temp file so it is gone even if JVM is killed
+      automatonFile.delete();
+    }
+  }
+
+  private String produceGuidingAutomaton(ARGState pRootState,
+      Set<ARGState> pPathStates) {
+    StringBuilder sb = new StringBuilder();
+    sb.append("CONTROL AUTOMATON AssumptionAutomaton\n\n");
+    sb.append("INITIAL STATE ARG" + pRootState.getStateId() + ";\n\n");
+
+    for (ARGState s : pPathStates) {
+
+      CFANode loc = AbstractStates.extractLocation(s);
+      sb.append("STATE USEFIRST ARG" + s.getStateId() + " :\n");
+
+      for (ARGState child : s.getChildren()) {
+        if (child.isCovered()) {
+          child = child.getCoveringState();
+          assert !child.isCovered();
+        }
+
+        if (pPathStates.contains(child)) {
+          CFANode childLoc = AbstractStates.extractLocation(child);
+          CFAEdge edge = loc.getEdgeTo(childLoc);
+          sb.append("    MATCH \"");
+          escape(edge.getRawStatement(), sb);
+          sb.append("\" -> ");
+
+          if (child.isTarget()) {
+            sb.append("ERROR");
+          } else {
+            sb.append("GOTO ARG" + child.getStateId());
+          }
+          sb.append(";\n");
+        }
+      }
+      sb.append("    TRUE -> STOP;\n\n");
+    }
+    sb.append("END AUTOMATON\n");
+
+    return sb.toString();
+  }
+
+  private static void escape(String s, StringBuilder appendTo) {
+    for (int i = 0; i < s.length(); i++) {
+      char c = s.charAt(i);
+      switch (c) {
+      case '\n':
+        appendTo.append("\\n");
+        break;
+      case '\"':
+        appendTo.append("\\\"");
+        break;
+      case '\\':
+        appendTo.append("\\\\");
+        break;
+      default:
+        appendTo.append(c);
+        break;
+      }
+    }
+  }
+}

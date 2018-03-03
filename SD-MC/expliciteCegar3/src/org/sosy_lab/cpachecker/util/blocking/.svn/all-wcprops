@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/software/cpachecker/!svn/ver/6238/trunk/src/org/sosy_lab/cpachecker/util/blocking
+END
+ReducedEdge.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/util/blocking/ReducedEdge.java
+END
+ReducedFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/software/cpachecker/!svn/ver/5543/trunk/src/org/sosy_lab/cpachecker/util/blocking/ReducedFunction.java
+END
+ReducedFunctionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/util/blocking/ReducedFunctionTest.java
+END
+ReducedNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/util/blocking/ReducedNode.java
+END
+BlockedCFAReducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/software/cpachecker/!svn/ver/6238/trunk/src/org/sosy_lab/cpachecker/util/blocking/BlockedCFAReducer.java
+END
+BlockedCFAReducerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/software/cpachecker/!svn/ver/6238/trunk/src/org/sosy_lab/cpachecker/util/blocking/BlockedCFAReducerTest.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/software/cpachecker/!svn/ver/5342/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/preferences
+END
+CPAPreferencePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/software/cpachecker/!svn/ver/5342/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/preferences/CPAPreferencePage.java
+END
+PreferenceInitializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/software/cpachecker/!svn/ver/5342/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/preferences/PreferenceInitializer.java
+END
+PreferenceConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/software/cpachecker/!svn/ver/5342/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/preferences/PreferenceConstants.java
+END

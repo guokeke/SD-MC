@@ -1,0 +1,7 @@
+digraph bea_is_dual_infeasible {
+614 [shape="circle"]
+615 [shape="circle"]
+613 [shape="circle"]
+614 -> 615 [label="Function start dummy edge" fontname="Courier New"]
+615 -> 613 [label="return ((red_cost < 0) && ((arc->ident) == 1)) || ((red_cost > 0) && ((arc->ident) == 2));" fontname="Courier New"]
+}

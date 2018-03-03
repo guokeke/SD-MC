@@ -1,0 +1,17 @@
+digraph flush_outbuf {
+646 [shape="circle"]
+647 [shape="diamond"]
+648 [shape="circle"]
+649 [shape="circle"]
+651 [shape="circle"]
+645 [shape="circle"]
+651 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">651</td><td align="left">bytes_out = (long)(((unsigned long)bytes_out) + ((unsigned long)outcnt));</td></tr><tr><td align="right">652</td><td align="left">outcnt = 0U;</td></tr><tr><td align="right">653</td><td align="left">return;</td></tr></table>>]
+651 -> 645[label=""]
+646 -> 647 [label="Function start dummy edge" fontname="Courier New"]
+647 -> 648 [label="[!(outcnt == 0U)]" fontname="Courier New"]
+647 -> 649 [label="[outcnt == 0U]" fontname="Courier New"]
+100206 [shape="component" label="write_buf"]
+648 -> 100206 [label="write_buf(ofd, (void *)((char *)outbuf), outcnt);" fontname="Courier New"]
+100206 -> 651 [label="" fontname="Courier New"]
+649 -> 645 [label="return;" fontname="Courier New"]
+}

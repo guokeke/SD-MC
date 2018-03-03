@@ -1,0 +1,2 @@
+p=>Global::a != 0 && q=>Global::r != 0 
+ 

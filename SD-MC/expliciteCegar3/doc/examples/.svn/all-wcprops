@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/software/cpachecker/!svn/ver/6568/trunk/doc/examples
+END
+benchmark.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/software/cpachecker/!svn/ver/4829/trunk/doc/examples/benchmark.xml
+END
+table-generator.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/software/cpachecker/!svn/ver/4924/trunk/doc/examples/table-generator.xml
+END
+benchmark-cbmc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/software/cpachecker/!svn/ver/4982/trunk/doc/examples/benchmark-cbmc.xml
+END
+benchmark-blast.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/software/cpachecker/!svn/ver/4829/trunk/doc/examples/benchmark-blast.xml
+END
+example.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/software/cpachecker/!svn/ver/5551/trunk/doc/examples/example.c
+END
+benchmark-cpachecker-release.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/software/cpachecker/!svn/ver/6568/trunk/doc/examples/benchmark-cpachecker-release.xml
+END
+benchmark-cpachecker.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/software/cpachecker/!svn/ver/6568/trunk/doc/examples/benchmark-cpachecker.xml
+END
+benchmark-feaver.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/software/cpachecker/!svn/ver/6107/trunk/doc/examples/benchmark-feaver.xml
+END
+benchmark-acsar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/software/cpachecker/!svn/ver/4829/trunk/doc/examples/benchmark-acsar.xml
+END
+benchmark-wolverine.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/software/cpachecker/!svn/ver/4829/trunk/doc/examples/benchmark-wolverine.xml
+END
+safe_sv-comp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/software/cpachecker/!svn/ver/6125/trunk/doc/examples/safe_sv-comp.xml
+END
+benchmark-cpachecker-release-systemc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/software/cpachecker/!svn/ver/6568/trunk/doc/examples/benchmark-cpachecker-release-systemc.xml
+END
+benchmark-satabs.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/software/cpachecker/!svn/ver/4829/trunk/doc/examples/benchmark-satabs.xml
+END

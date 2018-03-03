@@ -1,0 +1,13 @@
+digraph getopt {
+3166 [shape="circle"]
+3167 [shape="circle"]
+3169 [shape="circle"]
+3170 [shape="circle"]
+3165 [shape="circle"]
+3166 -> 3167 [label="Function start dummy edge" fontname="Courier New"]
+100013 [shape="component" label="_getopt_internal"]
+3169 -> 100013 [label="tmp = _getopt_internal(argc, argv, optstring, (const struct option *)0, (int *)0, 0);" fontname="Courier New"]
+100013 -> 3170 [label="" fontname="Courier New"]
+3167 -> 3169 [label="int tmp;" fontname="Courier New"]
+3170 -> 3165 [label="return tmp;" fontname="Courier New"]
+}

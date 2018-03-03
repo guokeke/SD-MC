@@ -1,0 +1,1 @@
+p=>Global::input == 1 && q=>Global::output == 22

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/util/automaton
+END
+NondeterministicFiniteAutomaton.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/util/automaton/NondeterministicFiniteAutomaton.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/software/cpachecker/!svn/ver/3417/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/popup/actions
+END
+SaveTasksAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/software/cpachecker/!svn/ver/1722/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/popup/actions/SaveTasksAction.java
+END
+RunMultipleTasksAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/software/cpachecker/!svn/ver/1722/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/popup/actions/RunMultipleTasksAction.java
+END
+SetSourceFileInTaskAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/software/cpachecker/!svn/ver/1722/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/popup/actions/SetSourceFileInTaskAction.java
+END
+DeleteTasksAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/software/cpachecker/!svn/ver/1809/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/popup/actions/DeleteTasksAction.java
+END
+SetConfigFileInTaskAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/software/cpachecker/!svn/ver/1722/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/popup/actions/SetConfigFileInTaskAction.java
+END
+NewTaskAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/software/cpachecker/!svn/ver/3417/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/popup/actions/NewTaskAction.java
+END
+RenameTasksAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/software/cpachecker/!svn/ver/1607/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/popup/actions/RenameTasksAction.java
+END
+SetSpecFileInTaskAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/software/cpachecker/!svn/ver/1688/trunk/plugin/CPAclipse/src/org/sosy_lab/cpachecker/plugin/eclipse/popup/actions/SetSpecFileInTaskAction.java
+END

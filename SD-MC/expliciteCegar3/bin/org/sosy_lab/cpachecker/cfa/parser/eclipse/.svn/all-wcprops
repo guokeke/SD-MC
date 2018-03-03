@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/software/cpachecker/!svn/ver/6521/trunk/src/org/sosy_lab/cpachecker/cfa/parser/eclipse
+END
+CFAFunctionBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/software/cpachecker/!svn/ver/6493/trunk/src/org/sosy_lab/cpachecker/cfa/parser/eclipse/CFAFunctionBuilder.java
+END
+AbstractEclipseCParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/software/cpachecker/!svn/ver/6309/trunk/src/org/sosy_lab/cpachecker/cfa/parser/eclipse/AbstractEclipseCParser.java
+END
+CFAGenerationRuntimeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/software/cpachecker/!svn/ver/6299/trunk/src/org/sosy_lab/cpachecker/cfa/parser/eclipse/CFAGenerationRuntimeException.java
+END
+Scope.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/software/cpachecker/!svn/ver/6242/trunk/src/org/sosy_lab/cpachecker/cfa/parser/eclipse/Scope.java
+END
+ASTConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/software/cpachecker/!svn/ver/6521/trunk/src/org/sosy_lab/cpachecker/cfa/parser/eclipse/ASTConverter.java
+END
+ASTConverterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/software/cpachecker/!svn/ver/6425/trunk/src/org/sosy_lab/cpachecker/cfa/parser/eclipse/ASTConverterTest.java
+END
+CFABuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/software/cpachecker/!svn/ver/6504/trunk/src/org/sosy_lab/cpachecker/cfa/parser/eclipse/CFABuilder.java
+END
+EclipseCDT7Parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/cfa/parser/eclipse/EclipseCDT7Parser.java
+END

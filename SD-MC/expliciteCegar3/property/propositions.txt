@@ -1,0 +1,1 @@
+p=>Global::temp_ver=0 && q=>Global::temp_ver == 1

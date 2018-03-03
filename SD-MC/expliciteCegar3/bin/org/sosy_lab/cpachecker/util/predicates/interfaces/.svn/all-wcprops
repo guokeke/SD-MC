@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/software/cpachecker/!svn/ver/6502/trunk/src/org/sosy_lab/cpachecker/util/predicates/interfaces
+END
+PathFormulaManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/util/predicates/interfaces/PathFormulaManager.java
+END
+RegionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/software/cpachecker/!svn/ver/6469/trunk/src/org/sosy_lab/cpachecker/util/predicates/interfaces/RegionManager.java
+END
+FormulaManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/software/cpachecker/!svn/ver/6502/trunk/src/org/sosy_lab/cpachecker/util/predicates/interfaces/FormulaManager.java
+END
+FormulaList.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/util/predicates/interfaces/FormulaList.java
+END
+InterpolatingTheoremProver.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/software/cpachecker/!svn/ver/6484/trunk/src/org/sosy_lab/cpachecker/util/predicates/interfaces/InterpolatingTheoremProver.java
+END
+TheoremProver.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/software/cpachecker/!svn/ver/6484/trunk/src/org/sosy_lab/cpachecker/util/predicates/interfaces/TheoremProver.java
+END
+Region.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/util/predicates/interfaces/Region.java
+END
+Formula.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/util/predicates/interfaces/Formula.java
+END

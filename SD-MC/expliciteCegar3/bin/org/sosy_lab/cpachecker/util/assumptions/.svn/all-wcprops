@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/util/assumptions
+END
+PreventingHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/software/cpachecker/!svn/ver/6058/trunk/src/org/sosy_lab/cpachecker/util/assumptions/PreventingHeuristic.java
+END
+AssumptionWithLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/util/assumptions/AssumptionWithLocation.java
+END

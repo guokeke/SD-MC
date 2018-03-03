@@ -1,0 +1,7 @@
+digraph clean_child_exit {
+24 [shape="circle"]
+25 [shape="circle"]
+23 [shape="circle"]
+24 -> 25 [label="Function start dummy edge" fontname="Courier New"]
+25 -> 23 [label="return 0;" fontname="Courier New"]
+}

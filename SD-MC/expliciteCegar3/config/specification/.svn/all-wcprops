@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/software/cpachecker/!svn/ver/6536/trunk/config/specification
+END
+ErrorLabelFsm.spc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/software/cpachecker/!svn/ver/6536/trunk/config/specification/ErrorLabelFsm.spc
+END
+AssumptionGuidingAutomaton.spc
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/software/cpachecker/!svn/ver/4665/trunk/config/specification/AssumptionGuidingAutomaton.spc
+END
+ErrorLocation.spc
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/software/cpachecker/!svn/ver/4960/trunk/config/specification/ErrorLocation.spc
+END
+default.spc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/software/cpachecker/!svn/ver/5358/trunk/config/specification/default.spc
+END
+sv-comp.spc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/software/cpachecker/!svn/ver/4960/trunk/config/specification/sv-comp.spc
+END
+FSM.spc
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/software/cpachecker/!svn/ver/6536/trunk/config/specification/FSM.spc
+END
+Assertion.spc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/software/cpachecker/!svn/ver/5324/trunk/config/specification/Assertion.spc
+END
+ErrorLabel.spc
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/software/cpachecker/!svn/ver/4665/trunk/config/specification/ErrorLabel.spc
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/software/cpachecker/!svn/ver/4665/trunk/config/specification/README
+END
+FeatureVarsErrorLocation.spc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/software/cpachecker/!svn/ver/4665/trunk/config/specification/FeatureVarsErrorLocation.spc
+END
+TerminatingFunctions.spc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/software/cpachecker/!svn/ver/5358/trunk/config/specification/TerminatingFunctions.spc
+END

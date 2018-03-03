@@ -1,0 +1,4 @@
+digraph compute_red_cost {
+36 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">36</td><td align="left">Function start dummy edge</td></tr><tr><td align="right">37</td><td align="left">return (cost - (tail-&gt;potential)) + head_potential;</td></tr></table>>]
+36 -> 35[label=""]
+}

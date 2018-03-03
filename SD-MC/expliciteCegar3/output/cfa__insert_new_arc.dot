@@ -1,0 +1,16 @@
+digraph insert_new_arc {
+50 [shape="doublecircle"]
+52 [shape="circle"]
+53 [shape="diamond"]
+51 [shape="circle"]
+39 [shape="circle"]
+40 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">40</td><td align="left">Function start dummy edge</td></tr><tr><td align="right">41</td><td align="left">long pos;</td></tr><tr><td align="right">43</td><td align="left">(new[newpos]).tail = tail;</td></tr><tr><td align="right">44</td><td align="left">(new[newpos]).head = head;</td></tr><tr><td align="right">45</td><td align="left">(new[newpos]).org_cost = cost;</td></tr><tr><td align="right">46</td><td align="left">(new[newpos]).cost = cost;</td></tr><tr><td align="right">47</td><td align="left">(new[newpos]).flow = (flow_t )red_cost;</td></tr><tr><td align="right">48</td><td align="left">pos = newpos + 1;</td></tr><tr><td align="right">49</td><td align="left">while</td></tr></table>>]
+40 -> 50[label=""]
+51 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">51</td><td align="left">(new[pos - 1]).tail = (new[(pos / 2) - 1]).tail;</td></tr><tr><td align="right">54</td><td align="left">(new[pos - 1]).head = (new[(pos / 2) - 1]).head;</td></tr><tr><td align="right">55</td><td align="left">(new[pos - 1]).cost = (new[(pos / 2) - 1]).cost;</td></tr><tr><td align="right">56</td><td align="left">(new[pos - 1]).org_cost = (new[(pos / 2) - 1]).cost;</td></tr><tr><td align="right">57</td><td align="left">(new[pos - 1]).flow = (new[(pos / 2) - 1]).flow;</td></tr><tr><td align="right">58</td><td align="left">pos = pos / 2;</td></tr><tr><td align="right">59</td><td align="left">(new[pos - 1]).tail = tail;</td></tr><tr><td align="right">60</td><td align="left">(new[pos - 1]).head = head;</td></tr><tr><td align="right">61</td><td align="left">(new[pos - 1]).cost = cost;</td></tr><tr><td align="right">62</td><td align="left">(new[pos - 1]).org_cost = cost;</td></tr><tr><td align="right">63</td><td align="left">(new[pos - 1]).flow = (flow_t )red_cost;</td></tr><tr><td align="right">64</td><td align="left"></td></tr></table>>]
+51 -> 50[label=""]
+50 -> 52 [label="[!((pos - 1) != 0L)]" fontname="Courier New"]
+50 -> 53 [label="[(pos - 1) != 0L]" fontname="Courier New"]
+53 -> 52 [label="[!(red_cost > ((cost_t )((new[(pos / 2) - 1]).flow)))]" fontname="Courier New"]
+53 -> 51 [label="[red_cost > ((cost_t )((new[(pos / 2) - 1]).flow))]" fontname="Courier New"]
+52 -> 39 [label="return;" fontname="Courier New"]
+}

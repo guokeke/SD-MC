@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/software/cpachecker/!svn/ver/6568/trunk/doc
+END
+Test.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/software/cpachecker/!svn/ver/4666/trunk/doc/Test.txt
+END
+Mailing.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/software/cpachecker/!svn/ver/6015/trunk/doc/Mailing.txt
+END
+Profile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/software/cpachecker/!svn/ver/5897/trunk/doc/Profile.txt
+END
+ConfigurationOptions.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/software/cpachecker/!svn/ver/6482/trunk/doc/ConfigurationOptions.txt
+END
+ChangeLog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/software/cpachecker/!svn/ver/6220/trunk/doc/ChangeLog.txt
+END
+Configuration.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/software/cpachecker/!svn/ver/6439/trunk/doc/Configuration.txt
+END
+Benchmark.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/software/cpachecker/!svn/ver/6278/trunk/doc/Benchmark.txt
+END
+BuildReport.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/software/cpachecker/!svn/ver/6166/trunk/doc/BuildReport.txt
+END
+Developing.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/software/cpachecker/!svn/ver/4891/trunk/doc/Developing.txt
+END
+StyleGuide.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/software/cpachecker/!svn/ver/6175/trunk/doc/StyleGuide.txt
+END

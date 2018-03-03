@@ -1,0 +1,2 @@
+p=>Global::wakend  == 1  
+ 

@@ -1,0 +1,2 @@
+p=>Global::lr > 0 && q1=>Global::status != 7 && q2=>Global::do_ACCEPT != 1
+ 

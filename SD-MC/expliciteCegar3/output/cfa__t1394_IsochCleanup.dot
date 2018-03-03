@@ -1,0 +1,7 @@
+digraph t1394_IsochCleanup {
+29 [shape="circle"]
+30 [shape="circle"]
+30 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">30</td><td align="left">int rand_x;</td></tr><tr><td align="right">32</td><td align="left">rand_x = rand();</td></tr><tr><td align="right">33</td><td align="left">return rand_x;</td></tr></table>>]
+30 -> 28[label=""]
+29 -> 30 [label="Function start dummy edge" fontname="Courier New"]
+}

@@ -1,0 +1,16 @@
+digraph gzipbasename {
+966 [shape="circle"]
+967 [shape="circle"]
+970 [shape="diamond"]
+971 [shape="circle"]
+972 [shape="circle"]
+965 [shape="circle"]
+967 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">967</td><td align="left">char *p;</td></tr><tr><td align="right">969</td><td align="left">p = strrchr((const char *)fname, ':');</td></tr></table>>]
+967 -> 970[label=""]
+972 [style="filled,bold" penwidth="1" fillcolor="white" fontname="Courier New" shape="Mrecord" label=<<table border="0" cellborder="0" cellpadding="3" bgcolor="white"><tr><td align="right">972</td><td align="left">fname = p + 1;</td></tr><tr><td align="right">973</td><td align="left"></td></tr></table>>]
+972 -> 971[label=""]
+966 -> 967 [label="Function start dummy edge" fontname="Courier New"]
+970 -> 971 [label="[!(((unsigned int)p) != ((unsigned int)((void *)0)))]" fontname="Courier New"]
+970 -> 972 [label="[((unsigned int)p) != ((unsigned int)((void *)0))]" fontname="Courier New"]
+971 -> 965 [label="return fname;" fontname="Courier New"]
+}

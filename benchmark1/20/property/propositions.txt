@@ -1,0 +1,2 @@
+p=>Global::WItemsNum >= 1
+ 

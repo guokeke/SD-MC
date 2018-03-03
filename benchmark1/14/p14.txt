@@ -1,0 +1,262 @@
+frame(WarmPollPeriod,status,polling,PowerStateIsAC,fp_executionPath) and (
+int WarmPollPeriod and skip;
+int status and skip;
+int polling and skip;
+int PowerStateIsAC and skip;
+FILE* fp_executionPath <== fopen("D:\\Eclipse-TPChecker\\expliciteCegar3\\executionPath.txt", "w") and skip;
+ function ExAcquireFastMutex (  )
+ {
+     skip
+ };
+ function ExReleaseFastMutex (  )
+ {
+     skip
+ };
+ function main ( int RValue )
+ {
+     frame(main_1_rand_x,main_1_5_rand_x1,main_1_5_6_timeOut1,main_1_5_6_status,main_1_5_6_deviceStatus,main_1_5_6_devId,main_1_5_6_requestRescan,main_1_5_6_pollingFailureThreshold,main_1_5_6_7_rand_x2,main_1_5_6_7_12_rand_x3,main_1_5_6_7_12_13_rand_x3,main_1_5_6_7_12_13_14_rand_x4,main_1_5_6_7_12_13_14_16_17_mfg,main_1_5_6_7_12_13_14_16_17_mdl,main_1_5_6_7_12_13_14_16_17_cls,main_1_5_6_7_12_13_14_16_17_des,main_1_5_6_7_12_13_14_16_17_aid,main_1_5_6_7_12_13_14_16_17_cid,main_1_5_6_7_12_13_14_16_21_rand_x5,main_1_5_6_7_ddd,count$,goto,break$) and (
+     int break$<==0 and skip;
+     int goto<==0 and skip;
+     WarmPollPeriod:=rand(RValue);
+     status:=rand(RValue);
+     polling:=rand(RValue);
+     PowerStateIsAC:=rand(RValue);
+     if(status>0) then 
+     {
+          fputs("[status>0]\n",fp_executionPath) and skip;
+         ExAcquireFastMutex();
+         rand(RValue) and skip;
+         ExReleaseFastMutex();
+         WarmPollPeriod:=rand(RValue);
+         if(WarmPollPeriod<5) then 
+         {
+              fputs("[WarmPollPeriod<5]\n",fp_executionPath) and skip;
+             WarmPollPeriod:=5
+             
+         }
+         else
+         { 
+          fputs("[!(WarmPollPeriod<5)]\n",fp_executionPath) and skip;
+         if(WarmPollPeriod>20) then 
+         {
+              fputs("[WarmPollPeriod>20]\n",fp_executionPath) and skip;
+             WarmPollPeriod:=20
+             
+         }
+         else 
+         {
+              fputs("[!(WarmPollPeriod>20)]\n",fp_executionPath) and skip
+         }
+     };
+     int main_1_rand_x and skip;
+     main_1_rand_x:=rand(RValue);
+     if(main_1_rand_x) then 
+     {
+          fputs("[rand_x]\n",fp_executionPath) and skip;
+         polling:=1;
+         int main_1_5_rand_x1 and skip;
+         main_1_5_rand_x1:=rand(RValue);
+         if(main_1_5_rand_x1) then 
+         {
+              fputs("[rand_x1]\n",fp_executionPath) and skip;
+             int main_1_5_6_timeOut1 and skip;
+             int main_1_5_6_status and skip;
+             int main_1_5_6_deviceStatus and skip;
+             int main_1_5_6_devId and skip;
+             int main_1_5_6_requestRescan and skip;
+             int main_1_5_6_pollingFailureThreshold<==10 and skip;
+             int count$<==0 and skip;
+             break$<==0 and skip;
+             while( break$=0 AND   ( count$=0 OR 1))
+             {
+                 count$:=count$+1;
+                 if(PowerStateIsAC) then 
+                 {
+                      fputs("[PowerStateIsAC]\n",fp_executionPath) and skip;
+                     skip
+                     
+                 }
+                 else
+                 { 
+                  fputs("[!(PowerStateIsAC)]\n",fp_executionPath) and skip;
+                 skip
+             };
+             main_1_5_6_status:=rand(RValue);
+             int main_1_5_6_7_rand_x2 and skip;
+             main_1_5_6_7_rand_x2:=rand(RValue);
+             if(main_1_5_6_7_rand_x2) then 
+             {
+                  fputs("[rand_x2]\n",fp_executionPath) and skip;
+                 break$<==1 and skip
+                  
+             }
+             else 
+             {
+                  fputs("[!(rand_x2)]\n",fp_executionPath) and skip 
+             };
+             if(break$=0)   then
+             {
+                 if(!PowerStateIsAC) then 
+                 {
+                      fputs("[!PowerStateIsAC]\n",fp_executionPath) and skip;
+                     goto<==1 and skip
+                     
+                 }
+                 else 
+                 {
+                      fputs("[!(!PowerStateIsAC)]\n",fp_executionPath) and skip 
+                 };
+                 if(goto=0)   then 
+                 {
+                     if(-1=main_1_5_6_status) then 
+                     {
+                          fputs("[-1==status]\n",fp_executionPath) and skip;
+                         int main_1_5_6_7_12_rand_x3 and skip;
+                         main_1_5_6_7_12_rand_x3:=rand(RValue);
+                         if(main_1_5_6_7_12_rand_x3) then 
+                         {
+                              fputs("[rand_x3]\n",fp_executionPath) and skip;
+                             int main_1_5_6_7_12_13_rand_x3 and skip;
+                             main_1_5_6_7_12_13_rand_x3:=rand(RValue);
+                             if(main_1_5_6_7_12_13_rand_x3) then 
+                             {
+                                  fputs("[rand_x3]\n",fp_executionPath) and skip;
+                                 main_1_5_6_requestRescan:=0;
+                                 main_1_5_6_deviceStatus:=rand(RValue);
+                                 int main_1_5_6_7_12_13_14_rand_x4 and skip;
+                                 main_1_5_6_7_12_13_14_rand_x4:=rand(RValue);
+                                 if(main_1_5_6_7_12_13_14_rand_x4) then 
+                                 {
+                                      fputs("[rand_x4]\n",fp_executionPath) and skip;
+                                     skip
+                                     
+                                 }
+                                 else
+                                 { 
+                                  fputs("[!(rand_x4)]\n",fp_executionPath) and skip;
+                                 main_1_5_6_devId:=rand(RValue);
+                                 if(main_1_5_6_devId) then 
+                                 {
+                                      fputs("[devId]\n",fp_executionPath) and skip;
+                                     int main_1_5_6_7_12_13_14_16_17_mfg<==0,main_1_5_6_7_12_13_14_16_17_mdl<==0,main_1_5_6_7_12_13_14_16_17_cls,main_1_5_6_7_12_13_14_16_17_des,main_1_5_6_7_12_13_14_16_17_aid,main_1_5_6_7_12_13_14_16_17_cid and skip;
+                                     rand(RValue) and skip;
+                                     if(main_1_5_6_7_12_13_14_16_17_mfg AND main_1_5_6_7_12_13_14_16_17_mdl) then 
+                                     {
+                                          fputs("[mfg && mdl]\n",fp_executionPath) and skip;
+                                         main_1_5_6_requestRescan:=1
+                                         
+                                     }
+                                     else 
+                                     {
+                                          fputs("[!(mfg && mdl)]\n",fp_executionPath) and skip
+                                     }
+                                     
+                                 }
+                                 else
+                                 { 
+                                  fputs("[!(devId)]\n",fp_executionPath) and skip;
+                                 skip
+                             };
+                             if(main_1_5_6_requestRescan) then 
+                             {
+                                  fputs("[requestRescan]\n",fp_executionPath) and skip;
+                                 skip
+                             }
+                             else
+                             {
+                                  fputs("[!(requestRescan)]\n",fp_executionPath) and skip;
+                                 int main_1_5_6_7_12_13_14_16_21_rand_x5 and skip;
+                                 main_1_5_6_7_12_13_14_16_21_rand_x5:=rand(RValue);
+                                 if(main_1_5_6_7_12_13_14_16_21_rand_x5) then 
+                                 {
+                                      fputs("[rand_x5]\n",fp_executionPath) and skip;
+                                     skip
+                                     
+                                 }
+                                 else 
+                                 {
+                                      fputs("[!(rand_x5)]\n",fp_executionPath) and skip
+                                 }
+                             }
+                         };
+                         rand(RValue) and skip;
+                         if(main_1_5_6_requestRescan) then 
+                         {
+                              fputs("[requestRescan]\n",fp_executionPath) and skip;
+                             rand(RValue) and skip
+                             
+                         }
+                         else 
+                         {
+                              fputs("[!(requestRescan)]\n",fp_executionPath) and skip
+                         }
+                     }
+                     else
+                     {
+                          fputs("[!(rand_x3)]\n",fp_executionPath) and skip;
+                         skip
+                     }
+                 }
+                 else
+                 {
+                      fputs("[!(rand_x3)]\n",fp_executionPath) and skip;
+                     skip
+                 }
+                 
+             }
+             else 
+             {
+                  fputs("[!(-1==status)]\n",fp_executionPath) and skip 
+             };
+             goto<==0 and skip;
+             int main_1_5_6_7_ddd<==0 and skip;
+             main_1_5_6_7_ddd:=main_1_5_6_7_ddd
+         }
+         else
+         {
+             skip
+         }
+     }
+     else
+     {
+         skip
+     }
+ };
+ break$<==0 and skip;
+ if(goto=0)   then 
+ {
+     polling:=0
+ }
+ else
+ {
+     skip
+ }
+ }
+ else
+ {
+      fputs("[!(rand_x1)]\n",fp_executionPath) and skip;
+     polling:=0
+ }
+ }
+ else
+ {
+      fputs("[!(rand_x)]\n",fp_executionPath) and skip;
+     skip
+ }
+ 
+ }
+ else 
+ {
+      fputs("[!(status>0)]\n",fp_executionPath) and skip 
+ };
+ polling:=1;
+ while(1)
+ {
+      fputs("[1]\n",fp_executionPath) and skip;
+     rand(RValue) and skip
+ };
+ fputs("[!(1)]\n",fp_executionPath) and skip
+ )
+ };
+  main(RValue)
+ )

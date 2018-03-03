@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/software/cpachecker/!svn/ver/6595/trunk/src/org/sosy_lab/cpachecker/cpa/composite
+END
+CompositeReducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/software/cpachecker/!svn/ver/6218/trunk/src/org/sosy_lab/cpachecker/cpa/composite/CompositeReducer.java
+END
+CompositePrecisionAdjustment.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/software/cpachecker/!svn/ver/6171/trunk/src/org/sosy_lab/cpachecker/cpa/composite/CompositePrecisionAdjustment.java
+END
+CompositePrecision.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/software/cpachecker/!svn/ver/5342/trunk/src/org/sosy_lab/cpachecker/cpa/composite/CompositePrecision.java
+END
+CompositeMergeAgreeOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/software/cpachecker/!svn/ver/6595/trunk/src/org/sosy_lab/cpachecker/cpa/composite/CompositeMergeAgreeOperator.java
+END
+CompositeMergePlainOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/software/cpachecker/!svn/ver/6172/trunk/src/org/sosy_lab/cpachecker/cpa/composite/CompositeMergePlainOperator.java
+END
+CompositeState.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/software/cpachecker/!svn/ver/6173/trunk/src/org/sosy_lab/cpachecker/cpa/composite/CompositeState.java
+END
+CompositeStopOperator.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/software/cpachecker/!svn/ver/6242/trunk/src/org/sosy_lab/cpachecker/cpa/composite/CompositeStopOperator.java
+END
+CompositeTransferRelation.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/software/cpachecker/!svn/ver/6242/trunk/src/org/sosy_lab/cpachecker/cpa/composite/CompositeTransferRelation.java
+END
+CompositeCPA.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/software/cpachecker/!svn/ver/6541/trunk/src/org/sosy_lab/cpachecker/cpa/composite/CompositeCPA.java
+END
+CompositeSimplePrecisionAdjustment.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/software/cpachecker/!svn/ver/6172/trunk/src/org/sosy_lab/cpachecker/cpa/composite/CompositeSimplePrecisionAdjustment.java
+END
+CompositeDomain.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/software/cpachecker/!svn/ver/6171/trunk/src/org/sosy_lab/cpachecker/cpa/composite/CompositeDomain.java
+END

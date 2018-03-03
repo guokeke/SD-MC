@@ -1,0 +1,2 @@
+p=>Global::keA != 0 && q=>Global::keR!=0
+ 

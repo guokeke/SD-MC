@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jst.server.preview.launchConfigurationType">
+<mapAttribute key="org.eclipse.debug.core.environmentVariables">
+<mapEntry key="ALLUSERSPROFILE" value="C:\Documents and Settings\All Users"/>
+<mapEntry key="APPDATA" value="C:\Documents and Settings\hp\Application Data"/>
+<mapEntry key="CLASSPATH" value=".;C:\Program Files\Java\jdk1.6.0_20\lib\dt.jar;C:\Program Files\Java\jdk1.6.0_20\lib\tools.jar;"/>
+<mapEntry key="CLIENTNAME" value="Console"/>
+<mapEntry key="COMPUTERNAME" value="HP-301"/>
+<mapEntry key="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+<mapEntry key="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+<mapEntry key="FP_NO_HOST_CHECK" value="NO"/>
+<mapEntry key="GRAPHVIZ_DOT" value="D:\Graphviz2.34\bin"/>
+<mapEntry key="HOMEDRIVE" value="C:"/>
+<mapEntry key="HOMEPATH" value="\Documents and Settings\hp"/>
+<mapEntry key="JAVA_HOME" value="C:\Program Files\Java\jdk1.6.0_20"/>
+<mapEntry key="LOGONSERVER" value="\\HP-301"/>
+<mapEntry key="MSDevDir" value="C:\Program Files\Microsoft Visual Studio\Common\MSDev98"/>
+<mapEntry key="NUMBER_OF_PROCESSORS" value="8"/>
+<mapEntry key="OS" value="Windows_NT"/>
+<mapEntry key="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH"/>
+<mapEntry key="PROCESSOR_ARCHITECTURE" value="x86"/>
+<mapEntry key="PROCESSOR_IDENTIFIER" value="x86 Family 6 Model 30 Stepping 5, GenuineIntel"/>
+<mapEntry key="PROCESSOR_LEVEL" value="6"/>
+<mapEntry key="PROCESSOR_REVISION" value="1e05"/>
+<mapEntry key="PROMPT" value="$P$G"/>
+<mapEntry key="Path" value="C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Program Files\Haskell\bin;C:\Program Files\Haskell Platform\2012.2.0.0\lib\extralibs\bin;C:\Program Files\Haskell Platform\2012.2.0.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;C:\cygwin\bin;C:\Program Files\Java\jdk1.6.0_20\bin;C:\PROGRA~1\Tcl\bin;C:\Program Files\Haskell Platform\2012.2.0.0\bin;：C:\Program Files\Java\jdk1.6.0_20\bin;JAVA_HOME%\jre\bin;D:\cygwin\bin;D:\Graphviz2.34\bin;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\LLVM\bin;C:\Program Files\LLVM\bin;C:\Program Files\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files\Microsoft Visual Studio\Common\Tools;C:\Program Files\Microsoft Visual Studio\VC98\bin;C:\Documents and Settings\hp\桌面\eclipse;"/>
+<mapEntry key="ProgramFiles" value="C:\Program Files"/>
+<mapEntry key="SESSIONNAME" value="Console"/>
+<mapEntry key="SPAN" value="C:\progra~1\SPAN"/>
+<mapEntry key="SystemDrive" value="C:"/>
+<mapEntry key="SystemRoot" value="C:\WINDOWS"/>
+<mapEntry key="TEMP" value="C:\DOCUME~1\hp\LOCALS~1\Temp"/>
+<mapEntry key="TMP" value="C:\DOCUME~1\hp\LOCALS~1\Temp"/>
+<mapEntry key="USERDOMAIN" value="HP-301"/>
+<mapEntry key="USERNAME" value="hp"/>
+<mapEntry key="USERPROFILE" value="C:\Documents and Settings\hp"/>
+<mapEntry key="VS100COMNTOOLS" value="C:\Program Files\Microsoft Visual Studio 10.0\Common7\Tools\"/>
+<mapEntry key="include" value="C:\Program Files\Microsoft Visual Studio\VC98\atl\include;C:\Program Files\Microsoft Visual Studio\VC98\mfc\include;C:\Program Files\Microsoft Visual Studio\VC98\include"/>
+<mapEntry key="lib" value="C:\Program Files\Microsoft Visual Studio\VC98\mfc\lib;C:\Program Files\Microsoft Visual Studio\VC98\lib"/>
+<mapEntry key="windir" value="C:\WINDOWS"/>
+</mapAttribute>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.profile"/>
+<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-config config/predicateAnalysis-PredAbsRefiner-SBE-pointer.properties struct.c"/>
+</launchConfiguration>
